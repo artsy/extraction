@@ -1,0 +1,14 @@
+use_frameworks!
+
+target 'Extraction_Example' do
+  pod 'Extraction', :path => '../'
+
+  target 'Extraction_Tests' do
+    inherit! :search_paths
+
+    pod 'Specta'
+  pod 'Expecta'
+  pod 'FBSnapshotTestCase'
+  pod 'Expecta+Snapshots'
+  end
+end
