@@ -1,8 +1,8 @@
-FRAMEWORK_SEARCH_PATHS = $(inherited) "$PODS_CONFIGURATION_BUILD_DIR/Artsy+UIFonts" "$PODS_CONFIGURATION_BUILD_DIR/Extraction" "$PODS_CONFIGURATION_BUILD_DIR/FLKAutoLayout" "$PODS_CONFIGURATION_BUILD_DIR/UIView+BooleanAnimations"
+FRAMEWORK_SEARCH_PATHS = $(inherited) "$PODS_CONFIGURATION_BUILD_DIR/Artsy+UIColors" "$PODS_CONFIGURATION_BUILD_DIR/Artsy+UIFonts" "$PODS_CONFIGURATION_BUILD_DIR/Extraction" "$PODS_CONFIGURATION_BUILD_DIR/FLKAutoLayout" "$PODS_CONFIGURATION_BUILD_DIR/UIView+BooleanAnimations"
 GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
 LD_RUNPATH_SEARCH_PATHS = $(inherited) '@executable_path/Frameworks' '@loader_path/Frameworks'
-OTHER_CFLAGS = $(inherited) -iquote "$PODS_CONFIGURATION_BUILD_DIR/Artsy+UIFonts/Artsy_UIFonts.framework/Headers" -iquote "$PODS_CONFIGURATION_BUILD_DIR/Extraction/Extraction.framework/Headers" -iquote "$PODS_CONFIGURATION_BUILD_DIR/FLKAutoLayout/FLKAutoLayout.framework/Headers" -iquote "$PODS_CONFIGURATION_BUILD_DIR/UIView+BooleanAnimations/UIView_BooleanAnimations.framework/Headers"
-OTHER_LDFLAGS = $(inherited) -framework "Artsy_UIFonts" -framework "Extraction" -framework "FLKAutoLayout" -framework "UIView_BooleanAnimations"
+OTHER_CFLAGS = $(inherited) -iquote "$PODS_CONFIGURATION_BUILD_DIR/Artsy+UIColors/Artsy_UIColors.framework/Headers" -iquote "$PODS_CONFIGURATION_BUILD_DIR/Artsy+UIFonts/Artsy_UIFonts.framework/Headers" -iquote "$PODS_CONFIGURATION_BUILD_DIR/Extraction/Extraction.framework/Headers" -iquote "$PODS_CONFIGURATION_BUILD_DIR/FLKAutoLayout/FLKAutoLayout.framework/Headers" -iquote "$PODS_CONFIGURATION_BUILD_DIR/UIView+BooleanAnimations/UIView_BooleanAnimations.framework/Headers"
+OTHER_LDFLAGS = $(inherited) -framework "Artsy_UIColors" -framework "Artsy_UIFonts" -framework "Extraction" -framework "FLKAutoLayout" -framework "UIView_BooleanAnimations"
 PODS_BUILD_DIR = $BUILD_DIR
 PODS_CONFIGURATION_BUILD_DIR = $PODS_BUILD_DIR/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
 PODS_ROOT = ${SRCROOT}/Pods

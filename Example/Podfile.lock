@@ -1,4 +1,5 @@
 PODS:
+  - Artsy+UIColors (3.0.1)
   - Artsy+UIFonts (1.1.0)
   - Expecta (1.0.5)
   - Expecta+Snapshots (3.0.0):
@@ -13,6 +14,7 @@ PODS:
     - Extraction/UIView+ARSpinner
     - UIView+BooleanAnimations
   - Extraction/ARSwitchView (0.1.0):
+    - Artsy+UIColors
     - Artsy+UIFonts (>= 1.1.0)
     - FLKAutoLayout
     - UIView+BooleanAnimations
@@ -57,10 +59,11 @@ CHECKOUT OPTIONS:
     :git: https://github.com/floriankugler/FLKAutoLayout.git
 
 SPEC CHECKSUMS:
+  Artsy+UIColors: 10a2d71e9ffe1015be43d4e084d13ff4337aab97
   Artsy+UIFonts: 108bfe625c45008ebb15c4c62003882dd345c4b8
   Expecta: e1c022fcd33910b6be89c291d2775b3fe27a89fe
   Expecta+Snapshots: c343f410c7a6392f3e22e78f94c44b6c0749a516
-  Extraction: 607d16f21a914fffa98080df9587f7e40c339039
+  Extraction: 30a669899836cbe9c31bbc0e86918cd7a2dab463
   FBSnapshotTestCase: ec0ed7378d617e4b787e6cf9899d22cb86010b94
   FLKAutoLayout: 106b14dbae09d32c6730190f4e78a959759ba4a4
   Specta: ac94d110b865115fe60ff2c6d7281053c6f8e8a2

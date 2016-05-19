@@ -2,13 +2,13 @@
   "name": "Extraction",
   "version": "0.1.0",
   "summary": "UI components shared between Eigen and Emission.",
-  "homepage": "https://github.com/artsy/Extraction",
+  "homepage": "https://github.com/artsy/extraction",
   "license": "MIT",
   "authors": {
     "Eloy Durán": "eloy.de.enige@gmail.com"
   },
   "source": {
-    "git": "https://github.com/artsy/Extraction.git",
+    "git": "https://github.com/artsy/extraction.git",
     "tag": "0.1.0"
   },
   "platforms": {
@@ -22,6 +22,9 @@
       "dependencies": {
         "Artsy+UIFonts": [
           ">= 1.1.0"
+        ],
+        "Artsy+UIColors": [
+
         ],
         "FLKAutoLayout": [
 
