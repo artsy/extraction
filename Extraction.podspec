@@ -13,6 +13,7 @@ Pod::Spec.new do |s|
   s.subspec 'ARSwitchView' do |ss|
     ss.source_files = 'Extraction/Classes/ARSwitchView.{h,m}'
     ss.dependency 'Artsy+UIFonts', '>= 1.1.0'
+    ss.dependency 'Artsy+UIColors'
     ss.dependency 'FLKAutoLayout'
     ss.dependency 'UIView+BooleanAnimations'
   end
