@@ -2,9 +2,9 @@
 
 @import Artsy_UIFonts;
 @import FLKAutoLayout;
+@import UIView_BooleanAnimations;
 
 //#import "ARAppConstants.h"
-static BOOL ARPerformWorkAsynchronously = YES;
 static CGFloat ARAnimationQuickDuration = 0.15;
 
 @interface ARSwitchView ()
@@ -185,10 +185,9 @@ static CGFloat ARAnimationQuickDuration = 0.15;
 {
   _selectedIndex = index;
   
-  [UIView animateWithDuration:ARAnimationQuickDuration
-                        delay:0
-                      options:UIViewAnimationOptionCurveEaseOut
-                   animations:^{
+  [UIView animateIf:animated
+           duration:ARAnimationQuickDuration
+            options:UIViewAnimationOptionCurveEaseOut:^{
     UIButton *button = self.buttons[index];
     
     for (UIButton *button in self.buttons) {
@@ -201,9 +200,9 @@ static CGFloat ARAnimationQuickDuration = 0.15;
     [NSLayoutConstraint activateConstraints:@[self.selectionIndicatorConstraints[index]]];
     
     [self layoutIfNeeded];
-  } completion:nil];
+  }];
   
-  [self.delegate switchView:self didPressButtonAtIndex:index animated:ARPerformWorkAsynchronously && animated];
+  [self.delegate switchView:self didPressButtonAtIndex:index animated:animated];
 }
 
 - (void)highlightButton:(UIButton *)button highlighted:(BOOL)highlighted
@@ -224,7 +223,7 @@ static CGFloat ARAnimationQuickDuration = 0.15;
 {
   NSAssert(enabledStates.count == self.buttons.count, @"Need to have a consistent number of enabled states for buttons");
   
-  [UIView animateWithDuration:ARAnimationQuickDuration animations:^{
+  [UIView animateIf:animated duration:ARAnimationQuickDuration:^{
     for (NSInteger i = 0; i < self.enabledStates.count; i++) {
       UIButton *button = self.buttons[i];
       BOOL enabled = [self.enabledStates[i] boolValue];

@@ -11,8 +11,19 @@ Pod::Spec.new do |s|
   s.requires_arc = true
 
   s.subspec 'ARSwitchView' do |ss|
-    ss.source_files = 'Extraction/Classes/ARSwitchView'
+    ss.source_files = 'Extraction/Classes/ARSwitchView.{h,m}'
     ss.dependency 'Artsy+UIFonts', '>= 1.1.0'
     ss.dependency 'FLKAutoLayout'
+    ss.dependency 'UIView+BooleanAnimations'
+  end
+
+  s.subspec 'ARSpinner' do |ss|
+    ss.source_files = 'Extraction/Classes/ARSpinner.{h,m}'
+    ss.dependency 'Extraction/UIView+ARSpinner'
+    ss.dependency 'UIView+BooleanAnimations'
+  end
+
+  s.subspec 'UIView+ARSpinner' do |ss|
+    ss.source_files = 'Extraction/Classes/UIView+ARSpinner.{h,m}'
   end
 end
