@@ -1,8 +1,14 @@
 #import "ARSwitchView.h"
 
+#if __has_include(<Artsy+UIFonts/UIFont+ArtsyFonts.h>)
+#import <Artsy+UIFonts/UIFont+ArtsyFonts.h>
+#import <FLKAutoLayout/FLKAutoLayout.h>
+#import <UIView+BooleanAnimations/UIView+BooleanAnimations.h>
+#else
 @import Artsy_UIFonts;
 @import FLKAutoLayout;
 @import UIView_BooleanAnimations;
+#endif
 
 //#import "ARAppConstants.h"
 static CGFloat ARAnimationQuickDuration = 0.15;
