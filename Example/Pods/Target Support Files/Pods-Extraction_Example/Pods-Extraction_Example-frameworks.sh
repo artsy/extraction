@@ -87,9 +87,11 @@ if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "$BUILT_PRODUCTS_DIR/Artsy+UIFonts/Artsy_UIFonts.framework"
   install_framework "$BUILT_PRODUCTS_DIR/Extraction/Extraction.framework"
   install_framework "$BUILT_PRODUCTS_DIR/FLKAutoLayout/FLKAutoLayout.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/UIView+BooleanAnimations/UIView_BooleanAnimations.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "$BUILT_PRODUCTS_DIR/Artsy+UIFonts/Artsy_UIFonts.framework"
   install_framework "$BUILT_PRODUCTS_DIR/Extraction/Extraction.framework"
   install_framework "$BUILT_PRODUCTS_DIR/FLKAutoLayout/FLKAutoLayout.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/UIView+BooleanAnimations/UIView_BooleanAnimations.framework"
 fi

@@ -6,10 +6,17 @@ PODS:
     - FBSnapshotTestCase/Core (~> 2.0)
     - Specta (~> 1.0)
   - Extraction (0.1.0):
+    - Extraction/ARSpinner (= 0.1.0)
     - Extraction/ARSwitchView (= 0.1.0)
+    - Extraction/UIView+ARSpinner (= 0.1.0)
+  - Extraction/ARSpinner (0.1.0):
+    - Extraction/UIView+ARSpinner
+    - UIView+BooleanAnimations
   - Extraction/ARSwitchView (0.1.0):
     - Artsy+UIFonts (>= 1.1.0)
     - FLKAutoLayout
+    - UIView+BooleanAnimations
+  - Extraction/UIView+ARSpinner (0.1.0)
   - FBSnapshotTestCase (2.1.1):
     - FBSnapshotTestCase/SwiftSupport (= 2.1.1)
   - FBSnapshotTestCase/Core (2.1.1)
@@ -17,6 +24,7 @@ PODS:
     - FBSnapshotTestCase/Core
   - FLKAutoLayout (1.0.0)
   - Specta (1.0.5)
+  - UIView+BooleanAnimations (1.0.2)
 
 DEPENDENCIES:
   - Artsy+UIFonts (from `https://github.com/artsy/Artsy-UIFonts.git`)
@@ -52,10 +60,11 @@ SPEC CHECKSUMS:
   Artsy+UIFonts: 108bfe625c45008ebb15c4c62003882dd345c4b8
   Expecta: e1c022fcd33910b6be89c291d2775b3fe27a89fe
   Expecta+Snapshots: c343f410c7a6392f3e22e78f94c44b6c0749a516
-  Extraction: 7243a034475e791a716fb0c22535264f3a833537
+  Extraction: 607d16f21a914fffa98080df9587f7e40c339039
   FBSnapshotTestCase: ec0ed7378d617e4b787e6cf9899d22cb86010b94
   FLKAutoLayout: 106b14dbae09d32c6730190f4e78a959759ba4a4
   Specta: ac94d110b865115fe60ff2c6d7281053c6f8e8a2
+  UIView+BooleanAnimations: a760be9a066036e55f298b7b7350a6cb14cfcd97
 
 PODFILE CHECKSUM: b0cbf9059d9a34ecddae280c7bf9f9865eeeedd5
 
