@@ -189,6 +189,10 @@ static CGFloat ARAnimationQuickDuration = 0.15;
 
 - (void)setSelectedIndex:(NSInteger)index animated:(BOOL)animated
 {
+    if (_selectedIndex == index) {
+        return;
+    }
+    
     _selectedIndex = index;
     
     [UIView animateIf:animated
