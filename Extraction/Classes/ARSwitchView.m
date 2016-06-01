@@ -109,12 +109,11 @@ static CGFloat ARAnimationQuickDuration = 0.15;
     // Try to maintain the selection. With React Native this allows us to change a
     // title at runtime without resetting the selection.
     if (self.selectedIndex < titles.count) {
-        self.selectedIndex = self.selectedIndex;
+        [self _setSelectedIndex:self.selectedIndex animated:NO];
     } else {
-        self.selectedIndex = 0;
+        [self _setSelectedIndex:0 animated:NO];
     }
     
-    [self _setSelectedIndex:self.selectedIndex animated:NO];
 }
 
 - (void)createSelectionIndicator
@@ -202,6 +201,8 @@ static CGFloat ARAnimationQuickDuration = 0.15;
 
 - (void)_setSelectedIndex:(NSInteger)index animated:(BOOL)animated
 {
+    _selectedIndex = index;
+
     [UIView animateIf:animated
              duration:ARAnimationQuickDuration
               options:UIViewAnimationOptionCurveEaseOut:^{
