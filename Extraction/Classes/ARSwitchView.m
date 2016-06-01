@@ -113,6 +113,8 @@ static CGFloat ARAnimationQuickDuration = 0.15;
     } else {
         self.selectedIndex = 0;
     }
+    
+    [self _setSelectedIndex:self.selectedIndex animated:NO];
 }
 
 - (void)createSelectionIndicator
@@ -189,12 +191,17 @@ static CGFloat ARAnimationQuickDuration = 0.15;
 
 - (void)setSelectedIndex:(NSInteger)index animated:(BOOL)animated
 {
-    if (_selectedIndex == index) {
-        return;
-    }
-    
+    NSInteger previousIndex = _selectedIndex;
     _selectedIndex = index;
     
+    if (previousIndex == index || self.buttons.count == 0) {
+        return;
+    }
+    [self _setSelectedIndex:index animated:animated];
+}
+
+- (void)_setSelectedIndex:(NSInteger)index animated:(BOOL)animated
+{
     [UIView animateIf:animated
              duration:ARAnimationQuickDuration
               options:UIViewAnimationOptionCurveEaseOut:^{
