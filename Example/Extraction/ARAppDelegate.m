@@ -1,46 +1,69 @@
-//
-//  ARAppDelegate.m
-//  Extraction
-//
-//  Created by Eloy Durán on 05/18/2016.
-//  Copyright (c) 2016 Eloy Durán. All rights reserved.
-//
-
 #import "ARAppDelegate.h"
+
+#import <Extraction/ARSwitchView.h>
+#import <Extraction/ARSpinner.h>
+
+#import <FLKAutoLayout/UIView+FLKAutoLayout.h>
+#import <FLKAutoLayout/UIViewController+FLKAutoLayout.h>
+
+@interface ARAppDelegate ()
+@property (nonatomic, strong, readwrite) UIStackView *stackView;
+@end
 
 @implementation ARAppDelegate
 
+@synthesize window = _window;
+
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Override point for customization after application launch.
+    self.stackView = [UIStackView new];
+    self.stackView.axis = UILayoutConstraintAxisVertical;
+    self.stackView.distribution = UIStackViewDistributionFill;
+    self.stackView.spacing = 20;
+
+    UIViewController *viewController = [UIViewController new];
+    [viewController.view addSubview:self.stackView];
+    [self.stackView alignLeadingEdgeWithView:viewController.view predicate:@"20"];
+    [self.stackView alignTrailingEdgeWithView:viewController.view predicate:@"-20"];
+    [self.stackView alignTopEdgeWithView:viewController.flk_topLayoutGuide predicate:@"40"];
+    [self.stackView alignBottomEdgeWithView:viewController.flk_bottomLayoutGuide predicate:@"0"];
+
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    self.window.backgroundColor = [UIColor whiteColor];
+    self.window.rootViewController = viewController;
+    [self.window makeKeyAndVisible];
+
+    //
+    // These are the sections
+    //
+    
+    ARSwitchView *switchView = [[ARSwitchView alloc] initWithButtonTitles:@[@"one", @"two", @"three"]];
+    [self addSection:@"ARSwitchView" view:switchView];
+    
+    ARSpinner *spinner = [ARSpinner new];
+    [spinner startAnimating];
+    [self addSection:@"ARSpinner" view:spinner];
+
+    // This view is just there to gobble up the rest of the space.
+    [self.stackView addArrangedSubview:[UIView new]];
+
     return YES;
 }
 
-- (void)applicationWillResignActive:(UIApplication *)application
+- (void)addSection:(NSString *)title view:(UIView *)view;
 {
-    // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
-    // Use this method to pause ongoing tasks, disable timers, and throttle down OpenGL ES frame rates. Games should use this method to pause the game.
-}
+    UILabel *label = [UILabel new];
+    label.text = title;
+    label.textAlignment = NSTextAlignmentCenter;
+    label.font = [UIFont boldSystemFontOfSize:20];
 
-- (void)applicationDidEnterBackground:(UIApplication *)application
-{
-    // Use this method to release shared resources, save user data, invalidate timers, and store enough application state information to restore your application to its current state in case it is terminated later.
-    // If your application supports background execution, this method is called instead of applicationWillTerminate: when the user quits.
-}
-
-- (void)applicationWillEnterForeground:(UIApplication *)application
-{
-    // Called as part of the transition from the background to the inactive state; here you can undo many of the changes made on entering the background.
-}
-
-- (void)applicationDidBecomeActive:(UIApplication *)application
-{
-    // Restart any tasks that were paused (or not yet started) while the application was inactive. If the application was previously in the background, optionally refresh the user interface.
-}
-
-- (void)applicationWillTerminate:(UIApplication *)application
-{
-    // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
+    [self.stackView addArrangedSubview:label];
+    [self.stackView addArrangedSubview:view];
+    
+    UIView *border = [UIView new];
+    border.backgroundColor = [UIColor lightGrayColor];
+    [border constrainHeight:@"1"];
+    [self.stackView addArrangedSubview:border];
 }
 
 @end

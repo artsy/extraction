@@ -48,7 +48,16 @@
     },
     {
       "name": "UIView+ARSpinner",
-      "source_files": "Extraction/Classes/UIView+ARSpinner.{h,m}"
+      "source_files": "Extraction/Classes/UIView+ARSpinner.{h,m}",
+      "dependencies": {
+        "Extraction/ARAnimationContinuation": [
+
+        ]
+      }
+    },
+    {
+      "name": "ARAnimationContinuation",
+      "source_files": "Extraction/Classes/ARAnimationContinuation.{h,m}"
     }
   ]
 }
