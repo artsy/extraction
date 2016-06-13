@@ -7,20 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		010C8B53A45FFF501546B26FFCF85727 /* UIView+ARSpinner.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C95F926502A636FB9A5C8685B1CC06E /* UIView+ARSpinner.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		01692FEBF3D1679B7E817E527DC33B28 /* SPTCompiledExample.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F6886BB45CCB7DDCE47C83CEA973EA1 /* SPTCompiledExample.m */; };
+		021E5301BE157EB24F59717458D6087C /* Extraction-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C18E05E075BD2076F02951645C68B28 /* Extraction-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		03284124994EBBD44C3CDAAFCD273B82 /* Expecta+Snapshots-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E33C6FF2877D7DC3C15115D7B161868A /* Expecta+Snapshots-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		05BD8F46812EDA9437B658B4FCDB2241 /* UIView+FLKAutoLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 801B92DC784C71A72A177A52A91C08D9 /* UIView+FLKAutoLayout.m */; };
 		05D5EB4CBB01559B4B4E690862881B78 /* Expecta+Snapshots-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D9EDF5845E04E5169EC87A66905ECB86 /* Expecta+Snapshots-dummy.m */; };
 		06238204542FE84E3C76AFD99DFF33C8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A80FDBE6429CFDD894BC2900FAEC79E8 /* Foundation.framework */; };
-		0B2F16496D32C1FCA2144D7145CAAC4B /* ARSpinner.h in Headers */ = {isa = PBXBuildFile; fileRef = 51EAC2D10FB9C5A7CF7C0FBBF66C7489 /* ARSpinner.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0B9005849CC23A5C53046C41771900B4 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12A724CA7F3D6C850098E4E59FB9934C /* XCTest.framework */; };
 		0BC07F548A75B2E41EBD7B559D199B50 /* EXPMatchers+FBSnapshotTest.h in Headers */ = {isa = PBXBuildFile; fileRef = D39492F8B730C442D1D446EC652E1B9D /* EXPMatchers+FBSnapshotTest.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0C03169CF9DEBDD1163F27F90EE0ECBF /* FBSnapshotTestCasePlatform.h in Headers */ = {isa = PBXBuildFile; fileRef = D6C98D5BEBA19644F33A087B17C9A7DD /* FBSnapshotTestCasePlatform.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0C6FF91EB1F0391ED75DC72D31D159EF /* EXPMatchers+beTruthy.m in Sources */ = {isa = PBXBuildFile; fileRef = E0EFD345E6A9982976E52292186D4818 /* EXPMatchers+beTruthy.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		0C875AAF42E3F0C5A77A006B57E465EE /* ARSwitchView.h in Headers */ = {isa = PBXBuildFile; fileRef = AE1850D8216A423F2D3D74FD929EA079 /* ARSwitchView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0D16B556212D317A0D4FEB71E102E207 /* EXPMatchers+beLessThan.h in Headers */ = {isa = PBXBuildFile; fileRef = 1469B5A9F9C90E3B52357C8950AF83E0 /* EXPMatchers+beLessThan.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0EA536562EECEB08458D900CDFE48D6E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A80FDBE6429CFDD894BC2900FAEC79E8 /* Foundation.framework */; };
 		0EBFA5FBE4953A83B677CE2A75746761 /* EXPMatchers+beLessThan.m in Sources */ = {isa = PBXBuildFile; fileRef = B57C51DB630001D355F2D313842040B1 /* EXPMatchers+beLessThan.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		0F92DB3E52575EC75B3171E796E04EC3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A80FDBE6429CFDD894BC2900FAEC79E8 /* Foundation.framework */; };
 		0F94F5B0ABB3252B9275B7C129EC7A26 /* EXPMatchers+equal.h in Headers */ = {isa = PBXBuildFile; fileRef = AE2052AB5CAC61E275DCD23ED01A009D /* EXPMatchers+equal.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -35,10 +31,13 @@
 		1A1AB2EC52323C5EA28DAA99F1E1A90D /* EXPMatchers+endWith.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F9CAA1F36C5C439DA8E3FBC3221BE97 /* EXPMatchers+endWith.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1AB3304B6884F626BC54150AC7565E18 /* EXPMatchers+equal.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FCFD3C6E3506F9A4FA0E2787C97ECCA /* EXPMatchers+equal.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		1B0389CD88AA949B34DC7269030FEC6F /* EXPMatchers+beGreaterThanOrEqualTo.m in Sources */ = {isa = PBXBuildFile; fileRef = 28908BBCBF0569BE65B6A1FC7F70B713 /* EXPMatchers+beGreaterThanOrEqualTo.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		1BFC34386958E1CC7F13C636865C45FD /* UIView+BooleanAnimations.h in Headers */ = {isa = PBXBuildFile; fileRef = 75ED3A9C3D7B829DC246C004F9D84D6C /* UIView+BooleanAnimations.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1C4D883043DBD20D633798200EFAA66C /* SPTTestSuite.m in Sources */ = {isa = PBXBuildFile; fileRef = 23E254CE1A2040351D0A616F961B84E9 /* SPTTestSuite.m */; };
 		201BF9C605852822CA5A65ADE282A310 /* EXPMatcherHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 13E1889C2E0D35F4BEF8E1A8A4C5E931 /* EXPMatcherHelpers.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		204D694B03BFF3B244A6AB73FACFFC43 /* Expecta-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BC7A5CF17623685BF40A082655959BD8 /* Expecta-dummy.m */; };
+		228C6CCE40B11619D6CED5F0E07C0C7E /* Artsy_UIColors.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD9A4EC45ED593565E772857112FB882 /* Artsy_UIColors.framework */; };
 		260BC7EED9289AF321A6F791964CE472 /* EXPMatchers+respondTo.h in Headers */ = {isa = PBXBuildFile; fileRef = 479A6DE7E9BC145333F6932FAA1DDF0C /* EXPMatchers+respondTo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		273F864CF253CF405B4DAA6B76284EA0 /* ARSwitchView.m in Sources */ = {isa = PBXBuildFile; fileRef = 291359858B319CAAA7594C0AE1AFEDFC /* ARSwitchView.m */; };
 		285A7737509FDE37F1A135BBD378D26F /* SpectaUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C52CFB7156C65DC65E55D948A303593 /* SpectaUtility.m */; };
 		2916A0606136A9DC67F2463AB230868B /* EXPMatchers+match.h in Headers */ = {isa = PBXBuildFile; fileRef = 80AF66F7041A79FD6B38B10717EC13A6 /* EXPMatchers+match.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2C0A8737FDB9B9C6A6BDF437FD11334C /* EXPMatchers+beNil.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A54685BC9032E1EE5099EC0FFB5ADFB /* EXPMatchers+beNil.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
@@ -46,7 +45,7 @@
 		2D0294A1F074AD370FDFE53FF14199AC /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12A724CA7F3D6C850098E4E59FB9934C /* XCTest.framework */; };
 		2E14619153A453BB8DF389FB6EA147BE /* ExpectaObject.h in Headers */ = {isa = PBXBuildFile; fileRef = BD4BF6284F547B323DD3443043C73819 /* ExpectaObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2F427490ACABC4408D57CC0592276678 /* EXPDoubleTuple.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B2DF1EFF7473725E99E277535D66F7A /* EXPDoubleTuple.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3252AE79594EDAE4AF98B0C5CAAED1CF /* NSObject+FLKAutoLayoutDebug.m in Sources */ = {isa = PBXBuildFile; fileRef = 20CC73CF7310812AAE541F76AA0463FE /* NSObject+FLKAutoLayoutDebug.m */; };
+		328F5AA633BF0C9E519E2EAC6ED0774A /* NSLayoutConstraint+FLKAutoLayoutDebug.h in Headers */ = {isa = PBXBuildFile; fileRef = 9382D537FABC150E4FC4C2FBD5CFA774 /* NSLayoutConstraint+FLKAutoLayoutDebug.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		34B6E9A30603BEBBD87BA535B7D384CA /* EXPMatchers+beInstanceOf.h in Headers */ = {isa = PBXBuildFile; fileRef = BE3FF411E3E0695E7E9601E94063B67E /* EXPMatchers+beInstanceOf.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		372F7A9CCE59CE86316CF436F832A3FC /* EXPMatchers+beGreaterThanOrEqualTo.h in Headers */ = {isa = PBXBuildFile; fileRef = E0CB0F868336BC8C0999C0B7C3D24448 /* EXPMatchers+beGreaterThanOrEqualTo.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		37A2D0F8493469EF2495FC689440F079 /* EXPMatchers+beLessThanOrEqualTo.h in Headers */ = {isa = PBXBuildFile; fileRef = 16D1DA54CEA6BF6F702C85C85B9FA53B /* EXPMatchers+beLessThanOrEqualTo.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -57,17 +56,21 @@
 		3B3E45A9EEC0318BE005272CCB67AF5B /* FBSnapshotTestCase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 20E6CD073CB972CA34F51FAF78FE6BC0 /* FBSnapshotTestCase-dummy.m */; };
 		3B5B7495707BF7133B9FB3F834045611 /* EXPBlockDefinedMatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A3DDF8AD9414E95E6A2E45752CF5419 /* EXPBlockDefinedMatcher.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3C2700C7DAA15C6AF84A595865C42F4D /* EXPMatchers+contain.h in Headers */ = {isa = PBXBuildFile; fileRef = 0651DE8ED955A060A51987D90C4D77EC /* EXPMatchers+contain.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3F1A58A6E470D33DF98A56C192C1127A /* UIView+BooleanAnimations.m in Sources */ = {isa = PBXBuildFile; fileRef = 15B89D5AE10E7F5BF4C411F27EAE3813 /* UIView+BooleanAnimations.m */; };
+		3CF54BF4F70B49CFBF5BF716A04BA53D /* ARSwitchView.h in Headers */ = {isa = PBXBuildFile; fileRef = F21FF4B3A0C4F0290BF561B39D83FA09 /* ARSwitchView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3DB6A5D66F08116901667AA6DA4F3EB2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A80FDBE6429CFDD894BC2900FAEC79E8 /* Foundation.framework */; };
+		3E1C6B08798653442D6B82F3EA61BBFB /* FLKAutoLayout-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AFB250C4EA90F5A2BDF7475349746711 /* FLKAutoLayout-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		403292D82DA62291204BF59524BC4EDB /* EXPMatchers+haveCountOf.m in Sources */ = {isa = PBXBuildFile; fileRef = 089071CA92D80930499C020C5730945C /* EXPMatchers+haveCountOf.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		4111EEC75486A8A5BACB2A39E575DD7F /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12A724CA7F3D6C850098E4E59FB9934C /* XCTest.framework */; };
 		46137F5CC368BF38BAF0D0AF81DD8FFE /* EXPMatchers+raise.h in Headers */ = {isa = PBXBuildFile; fileRef = 273CB6655F40A313581A06717A4A5D3A /* EXPMatchers+raise.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		461C8FE3F8FDA8037AF3E13D62E8BB97 /* SPTSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 92BDB4EFF27A03AB2122E87740AAFB7D /* SPTSpec.m */; };
 		47007C05794A6945B6F5EB62625AC33B /* FBSnapshotTestController.h in Headers */ = {isa = PBXBuildFile; fileRef = 7464006024D7E8A37E6A194C62EED87B /* FBSnapshotTestController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		471FD4F68E27AB26FA2AEBB8B245CEE4 /* NSValue+Expecta.h in Headers */ = {isa = PBXBuildFile; fileRef = BE1B63FB273866F690A533A6C03E2938 /* NSValue+Expecta.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4770CAC538980AF0BCA9D7527690E296 /* NSObject+FLKAutoLayoutDebug.m in Sources */ = {isa = PBXBuildFile; fileRef = 20CC73CF7310812AAE541F76AA0463FE /* NSObject+FLKAutoLayoutDebug.m */; };
 		48BD5F677B5847D9A1A8545818A69F0F /* ExpectaObject+FBSnapshotTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 664C1D93929DB5A3B0D7A48C3B3A8222 /* ExpectaObject+FBSnapshotTest.m */; };
 		49898689E296C586F24740CD60B5B6BA /* XCTest+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = AAD0E5FF634F521CA216B7101616DE1D /* XCTest+Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4B0C04A88B1CE2CD8A5FE28EEC21DF07 /* UIColor+ArtsyColors.h in Headers */ = {isa = PBXBuildFile; fileRef = E96B23D2407671D4D92ECC33D4D9CF88 /* UIColor+ArtsyColors.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4BBCBB9D8EF0B241A4A4FE4982985481 /* ExpectaSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = ED549B7AE6802D702F2AE84C2FCA4395 /* ExpectaSupport.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		4D6B09FD6EA9A729DFAAB2D6BCD71806 /* FLKAutoLayout-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AE41748A93DE75B154D47C40D5AC6A1B /* FLKAutoLayout-dummy.m */; };
 		50F7B2FCCD5A45CDFAF286CAFE1EE91A /* Artsy+UIColors-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 507549BC612F47BAE8036A06A2FA622B /* Artsy+UIColors-dummy.m */; };
 		51DDDB0FB4899757CF6A826B531B940D /* EXPUnsupportedObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 47CD6A041F791A5E1A2C068251FD8D65 /* EXPUnsupportedObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		525E330ABAF38C99E333F1E9F05ED7FA /* FBSnapshotTestCase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DAE84B1D6151890CCCFEE664D11961F6 /* FBSnapshotTestCase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -77,10 +80,12 @@
 		585E0FA74D1DE7DF2A410BE4F29097DF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 771EEE3DB79DD2B733F350B2BCB35F54 /* UIKit.framework */; };
 		59148151D52F07603FF77DBB94854288 /* SPTCallSite.m in Sources */ = {isa = PBXBuildFile; fileRef = F38DA67B8D4B97CBCE8E808A3B64D893 /* SPTCallSite.m */; };
 		592AE270F1DA26EAF3ACCA81EE5B9A9D /* ITCAvantGardeDemi_Track03.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C71BAF3251CDDA34CA8C24EC6D0052B3 /* ITCAvantGardeDemi_Track03.ttf */; };
+		59CA553CD16D38FBAFF41F68D2B69B70 /* Extraction-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A0967808772D5818FDD0F7E96B6F9288 /* Extraction-dummy.m */; };
 		5B2D4A621D3DA971A474776AF36BB073 /* EXPBlockDefinedMatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B687BF190A38433FA3051B6EEDFE247 /* EXPBlockDefinedMatcher.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		5DA5C9FC0551537B223CC8D6ABC87B0F /* UIView+FLKAutoLayoutDebug.m in Sources */ = {isa = PBXBuildFile; fileRef = EE36D6B6DBE68DD1B52BA39416784A95 /* UIView+FLKAutoLayoutDebug.m */; };
 		5EA7043FE10E75D02F3C3052AF8B8318 /* EXPDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = E3C0F10976BFB4CCA71C88A04569465A /* EXPDefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		60F9E3F3C30C3A83C8D96717BC95682C /* NSLayoutConstraint+FLKAutoLayoutDebug.m in Sources */ = {isa = PBXBuildFile; fileRef = 748421FF79BB62AFCA527139858F205E /* NSLayoutConstraint+FLKAutoLayoutDebug.m */; };
 		61F3A55E5A1FE393CB05F55030883C3F /* UIApplication+StrictKeyWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DA1F305054F0EFCC3D0E72D0E60AD21 /* UIApplication+StrictKeyWindow.m */; };
+		6319A1CB851DA6EB5BC21ACA8EAEA3D4 /* FLKAutoLayout.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04A7BCB5B73E5A6318547C4FB5404325 /* FLKAutoLayout.framework */; };
 		649F1D6FA87F8984048CBE067E72C805 /* AGaramondPro-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3B96A4D469F70ECD90B204FD80A72D7D /* AGaramondPro-Regular.otf */; };
 		64FA12BE6B0D461952A262BE283DBB1B /* UIFont+ArtsyFonts.h in Headers */ = {isa = PBXBuildFile; fileRef = B9C9B7C88E08C99E7DBF07285B8A6326 /* UIFont+ArtsyFonts.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		653BC1C3ACB66094A0B64D1996F05BA2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A80FDBE6429CFDD894BC2900FAEC79E8 /* Foundation.framework */; };
@@ -92,63 +97,63 @@
 		67459AD239EF669A365519E06B45DCFE /* EXPExpect.h in Headers */ = {isa = PBXBuildFile; fileRef = 18B8ACF877A1DF9BE18F16AE05B792C3 /* EXPExpect.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		68DF444154BCD67D5C6D69A209E86AC8 /* AGaramondPro-Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = FBA733BBE01A7B8EB905F7527879146A /* AGaramondPro-Italic.otf */; };
 		68F41E9C352268CCD35068CBDA99BF8A /* UIImage+Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = FE4928FACFD4E2C268AE12877A1D3411 /* UIImage+Snapshot.m */; };
-		69C7EE6BCB9A014C950BE29ED7206C51 /* UIView+FLKAutoLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 51FD568B633C5858163F3CFC5C6BDBF3 /* UIView+FLKAutoLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6D98B0A2BF11C1AEC5B390B84AE3A002 /* FLKAutoLayoutPredicateList.h in Headers */ = {isa = PBXBuildFile; fileRef = AC9A14361A266719F2F60CF30858F639 /* FLKAutoLayoutPredicateList.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		69ADD0BCD9776DF384847E72B7CFA307 /* UIView+FLKAutoLayoutDebug.m in Sources */ = {isa = PBXBuildFile; fileRef = EE36D6B6DBE68DD1B52BA39416784A95 /* UIView+FLKAutoLayoutDebug.m */; };
+		6BF633C1BADEB0010B728C5665EA45A3 /* ARSpinner.m in Sources */ = {isa = PBXBuildFile; fileRef = 23C846AB9F6FA73CA68E608F00345F0B /* ARSpinner.m */; };
 		6E1D978790705E137FDE439AA68DD3AA /* EXPFloatTuple.h in Headers */ = {isa = PBXBuildFile; fileRef = 9767A590D0C87F63129CDA12A474E1D3 /* EXPFloatTuple.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6EFC63A5CED45BB39FC79D87F2C47D6B /* EXPMatchers+beGreaterThan.h in Headers */ = {isa = PBXBuildFile; fileRef = 1999872218131BF8657D2442F2BDD355 /* EXPMatchers+beGreaterThan.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6F278423C8AE1DA47F35E374BB5B91EC /* EXPMatchers+beSupersetOf.m in Sources */ = {isa = PBXBuildFile; fileRef = ED4073B4EC2C399EC75B0D908C84FC48 /* EXPMatchers+beSupersetOf.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		71F7FEC212E2645DD8952B675DC47F17 /* UIFont+ArtsyFonts.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D198742EAAA2531138B27B2D87EE0A8 /* UIFont+ArtsyFonts.m */; };
 		76CCABE79C04444450153424D7CE1DC1 /* EXPMatchers+beSupersetOf.h in Headers */ = {isa = PBXBuildFile; fileRef = ACBC999D9838E698E6194AF48D4AF76F /* EXPMatchers+beSupersetOf.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		76D337327C10A7555447B69AA1562647 /* EXPMatchers+beInstanceOf.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D5F44A4B0C5268C4A205764F7B86B91 /* EXPMatchers+beInstanceOf.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		7715F37F21C7AE8088B3BD8EF39648D6 /* UIView+ARSpinner.h in Headers */ = {isa = PBXBuildFile; fileRef = C0E1FAC6FC0E1A1E9B75400EE9D2F253 /* UIView+ARSpinner.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		784969BB565AD080C91EE733FD50CDA7 /* FBSnapshotTestCase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 074D18F9DF59EF388939DC628A38574F /* FBSnapshotTestCase.framework */; };
+		7863BE63CAF191DED89BC9DBB7C5439A /* FLKAutoLayoutPredicateList.h in Headers */ = {isa = PBXBuildFile; fileRef = AC9A14361A266719F2F60CF30858F639 /* FLKAutoLayoutPredicateList.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		78C296630B71781C98B071B086F1BEA4 /* FLKAutoLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D169CDF98FBBD2167408C1D540AABA6 /* FLKAutoLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		79558B1F97ABE4AB8942DC18BEBD4B82 /* EXPMatchers+beKindOf.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A1B49C97A8F229A8FD25310ED839235 /* EXPMatchers+beKindOf.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7B223B4E6EF14BA12DA113F7EE10B96C /* NSObject+Expecta.h in Headers */ = {isa = PBXBuildFile; fileRef = 7CF7391D6DC4348BC5D140B9348F548D /* NSObject+Expecta.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		805E425BBEF7A6133E32E1D30A073010 /* EXPExpect.m in Sources */ = {isa = PBXBuildFile; fileRef = 112A497E9DAAF24AFDA7104506112E6A /* EXPExpect.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		80627A14FB508C78FDD005FEAD00F9C1 /* NSLayoutConstraint+FLKAutoLayoutDebug.h in Headers */ = {isa = PBXBuildFile; fileRef = 9382D537FABC150E4FC4C2FBD5CFA774 /* NSLayoutConstraint+FLKAutoLayoutDebug.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		80C929DE9E8939AAA24357F8F53D5F61 /* UIImage+Snapshot.h in Headers */ = {isa = PBXBuildFile; fileRef = 8DBCEAB8C8240C4706AFEF53225C1900 /* UIImage+Snapshot.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		81DAC714F36F255A1096E74E5B0D0010 /* UIView+ARSpinner.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A283898B9765A415971C8B10BCA34E5 /* UIView+ARSpinner.m */; };
 		81F30F14BE5F521419A9843F14A99258 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A80FDBE6429CFDD894BC2900FAEC79E8 /* Foundation.framework */; };
-		82DCF41F2A0A4C39B933995601FDB45F /* ARSwitchView.m in Sources */ = {isa = PBXBuildFile; fileRef = D57E1C2CDC3099CB34744F00CAB0AABC /* ARSwitchView.m */; };
-		830610DF65848490845F3A5653571B0E /* FLKAutoLayout-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AE41748A93DE75B154D47C40D5AC6A1B /* FLKAutoLayout-dummy.m */; };
 		831A55B0C6A89613B5DDEAB7B6947B22 /* SPTGlobalBeforeAfterEach.h in Headers */ = {isa = PBXBuildFile; fileRef = D0684DEBA062735B1A22172B16174415 /* SPTGlobalBeforeAfterEach.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		837B593D7C1D01B4EA400247309D6AB0 /* Expecta-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = ABAE9CE9DEEC5D368F6AA339FB9A70A0 /* Expecta-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		85E31076D5530AEEB45ACF16B2B8A983 /* EXPMatchers.h in Headers */ = {isa = PBXBuildFile; fileRef = 57D21E0704BC86EAB9A559A167FA4D7F /* EXPMatchers.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		85EB2F216487CB2E8F3FCCFBC4D69912 /* EXPMatchers+beTruthy.h in Headers */ = {isa = PBXBuildFile; fileRef = CF4E46EDF0C78E771D459C82D020A439 /* EXPMatchers+beTruthy.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		87C3BEDA1C4BE0A5E29A4854EC062745 /* UIView+BooleanAnimations.m in Sources */ = {isa = PBXBuildFile; fileRef = 15B89D5AE10E7F5BF4C411F27EAE3813 /* UIView+BooleanAnimations.m */; };
 		87FD5F0F682CDEB6A348CA448889E3EA /* EXPMatchers+beKindOf.m in Sources */ = {isa = PBXBuildFile; fileRef = ED1AAD431FB85F73E67B1A06F7DADB9B /* EXPMatchers+beKindOf.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		884FF3324585FBA89E25B46D302D49CD /* UIView+BooleanAnimations-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C1BD01B30A849DBEDB7CA632FD5CBED5 /* UIView+BooleanAnimations-dummy.m */; };
-		88E3C03A532D018538F5FBFFEA56C787 /* Artsy_UIFonts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9E6270FFE8FE2468BF45D1ED44D4209 /* Artsy_UIFonts.framework */; };
 		89F936CCD20573059DBBAF5759D4D7F8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A80FDBE6429CFDD894BC2900FAEC79E8 /* Foundation.framework */; };
 		8AFC2BC0377E317F77FB33A7A9D198AF /* AGaramondPro-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0577D72E17D714C9737B68B9AE3402EE /* AGaramondPro-Bold.otf */; };
 		8BAF175C6F35AB44B5D8139CE70A376B /* Specta-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 375B10FBA026D15B229A30F795F4686F /* Specta-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8C8C1B0D83FE6A4352F15154DB16372C /* EXPMatcherHelpers.h in Headers */ = {isa = PBXBuildFile; fileRef = D41D74CA5972B22DFC8B3F41566FAABA /* EXPMatcherHelpers.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8FB1670E6611FA3331BA4A7B00E869F1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 771EEE3DB79DD2B733F350B2BCB35F54 /* UIKit.framework */; };
+		8D301D7E276E3D1C91DDB354ED26EC6C /* UIView+ARSpinner.m in Sources */ = {isa = PBXBuildFile; fileRef = 710F2896CF5E54468E679DC2B401225F /* UIView+ARSpinner.m */; };
+		8E72697909AD1A6F21533CE846A4C87E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A80FDBE6429CFDD894BC2900FAEC79E8 /* Foundation.framework */; };
 		8FEC225087FD762796FDA26CCC5861AA /* Artsy+UIColors-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 220D2EBD172AE25CF4F5727041AFF412 /* Artsy+UIColors-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		90A4E51247673C2E2777F4548F733E5C /* Extraction-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 85764629A47E03DD2A1D00F1102D42EF /* Extraction-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		90CEE7F4A484CDBF806219DBD0C95E7D /* ARSpinner.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AA15C559F6EF7B0323DCB80C097CB11 /* ARSpinner.m */; };
 		918E06480F28F27361B19D19432F8538 /* EXPMatchers+endWith.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E69421591DD7C67032A219A409A05D3 /* EXPMatchers+endWith.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		931D410B9F8ACB935883DF8C59F9C93E /* EXPMatchers+postNotification.m in Sources */ = {isa = PBXBuildFile; fileRef = A4A80C82DC34DC10A3DB8C94AA9A99A7 /* EXPMatchers+postNotification.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		940B9314A543B3DD3E2D9608D41AC38D /* Expecta.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C514536865C5D62A6E32B65AC59F2739 /* Expecta.framework */; };
 		94C47C87E397972CE98F75929F3B706C /* ExpectaObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 6953893331C61FA77C89C2F09FE73644 /* ExpectaObject.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		9639568D4B33614BA93E101C138A973B /* FBSnapshotTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = F26A6C5D1F3F5C00D7D4D06A67AEFF88 /* FBSnapshotTestCase.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		965BCECEDBAC0D236CA7F5E5E979F677 /* FLKAutoLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D169CDF98FBBD2167408C1D540AABA6 /* FLKAutoLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		981B5C7A3CA090674524870929D91976 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A80FDBE6429CFDD894BC2900FAEC79E8 /* Foundation.framework */; };
+		96EC9D5E6E366280BDAD9F89AEB6E555 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 771EEE3DB79DD2B733F350B2BCB35F54 /* UIKit.framework */; };
 		987C93E1446CF9DF3A324BAB4A94F982 /* Specta.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E70078DF506C19F6500EFC6E0E6193D /* Specta.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9AD7AA93EE37D1E786F667F83F703119 /* UIViewController+FLKAutoLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = BA9A10F9968D2E56C2CEC0E9F1D664B8 /* UIViewController+FLKAutoLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9B2E761A064459F77EA9870BEF03ACC3 /* EXPMatchers+postNotification.h in Headers */ = {isa = PBXBuildFile; fileRef = 13BC170E606816B906AAB9A65CD97DA1 /* EXPMatchers+postNotification.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9BB9159FBA757600D3D4C0FF645F3911 /* EXPMatchers+beInTheRangeOf.m in Sources */ = {isa = PBXBuildFile; fileRef = F4D6AD9888903C40A7799227202F8B01 /* EXPMatchers+beInTheRangeOf.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		9BC5C3D116C52338FE5EF8D1B3EAD83F /* UIView+BooleanAnimations-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 93E8763628E3D64BE86A67092188C86F /* UIView+BooleanAnimations-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9E0339311A6FFD778639E434E5683F96 /* XCTestCase+Specta.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D08D6F1F3415AC04819BE463385E683 /* XCTestCase+Specta.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A48DD4E07B4DDD34C337A94ABE919136 /* SPTCompiledExample.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B396A005305298345196D0124B58AAE /* SPTCompiledExample.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A6019967D823A52759254DE50B3C639E /* EXPMatchers+FBSnapshotTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ECCBF9D66DB60D2D694B4727796668C /* EXPMatchers+FBSnapshotTest.m */; };
 		A67036F5899F6AECF3E9A57B57B08459 /* SpectaDSL.m in Sources */ = {isa = PBXBuildFile; fileRef = DDA701DE3B5FA36522332FBD33EBB607 /* SpectaDSL.m */; };
-		A72F843C3909DED6697E8C0C2B337B69 /* UIView+FLKAutoLayoutPredicate.h in Headers */ = {isa = PBXBuildFile; fileRef = 112638DC7DBC02AC837CD33C86E0A6BE /* UIView+FLKAutoLayoutPredicate.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		AA1A2D1E50B971ED11A154372D07949B /* UIView+BooleanAnimations-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 93E8763628E3D64BE86A67092188C86F /* UIView+BooleanAnimations-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AB1B931093E93B5D38B1F9DC77DC9B58 /* Pods-Extraction_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 392BE5AAC7DD44B3B6E184B90134A5A3 /* Pods-Extraction_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AB43D31B4BC848FA8B074C3048927F6C /* UIColor+DebugColours.h in Headers */ = {isa = PBXBuildFile; fileRef = DBF92A208975977087E79A1BEFA6A235 /* UIColor+DebugColours.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AC9CE0ECC78F93770B8007D360389BAB /* XCTestCase+Specta.m in Sources */ = {isa = PBXBuildFile; fileRef = CF501174FB22E7F977C57A270B39A0E6 /* XCTestCase+Specta.m */; };
+		AE18C5C1633A521C7E3D6464164FC8AD /* UIView+BooleanAnimations-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C1BD01B30A849DBEDB7CA632FD5CBED5 /* UIView+BooleanAnimations-dummy.m */; };
 		AF1F46668D4591602887998C6E9C10AD /* EXPMatchers+beCloseTo.h in Headers */ = {isa = PBXBuildFile; fileRef = B0772CDC3E5AE7793D595A8539B2C946 /* EXPMatchers+beCloseTo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AFA36FDCD8B23D38D70F5776F30B97ED /* UIView+FLKAutoLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 801B92DC784C71A72A177A52A91C08D9 /* UIView+FLKAutoLayout.m */; };
 		AFFC8900E52BBEC72059334132F3A8F3 /* ExpectaSupport.h in Headers */ = {isa = PBXBuildFile; fileRef = 990659E05FD830AFC25C4B5794BE2062 /* ExpectaSupport.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B1A21DB7494006EA8646A9897878AD64 /* SPTTestSuite.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F51885B14CF8B4A2568593E570E59FF /* SPTTestSuite.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B62A652D785088A2F0D5439560F0206A /* NSLayoutConstraint+FLKAutoLayoutDebug.m in Sources */ = {isa = PBXBuildFile; fileRef = 748421FF79BB62AFCA527139858F205E /* NSLayoutConstraint+FLKAutoLayoutDebug.m */; };
+		B3EA946419DDA39D647880821A0D1699 /* ARAnimationContinuation.h in Headers */ = {isa = PBXBuildFile; fileRef = 388409D03E2707FC0AFD5E161BE1778E /* ARAnimationContinuation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B501C92550DC569A1FC098E3A29F2917 /* UIView_BooleanAnimations.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B30C20CDF9F9977B0DC20F1A3D373691 /* UIView_BooleanAnimations.framework */; };
 		B6CF2F08A9BA6BAC535FEB83F839FDEE /* UIImage+Diff.m in Sources */ = {isa = PBXBuildFile; fileRef = 90B2886DB1A328A522DBB1938B783BE4 /* UIImage+Diff.m */; };
+		B6D607A6A9B90190CF959477F19EBEA0 /* FLKAutoLayoutPredicateList.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B19F4F6873E17C4DD1EE1579B2233F2 /* FLKAutoLayoutPredicateList.m */; };
 		B7185ADC751C1C1B68DCE07933CF0CB5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A80FDBE6429CFDD894BC2900FAEC79E8 /* Foundation.framework */; };
 		B84431CF8C64F363A334AA7089F6C134 /* NSValue+Expecta.m in Sources */ = {isa = PBXBuildFile; fileRef = 461DF6FA10F51715678AFD4CF143B303 /* NSValue+Expecta.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		BA12B131F10BCE3BE6E9A02FC908FE9D /* EXPMatchers+beCloseTo.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A15BFAA698917AFD15A81C80B03D01E /* EXPMatchers+beCloseTo.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
@@ -159,40 +164,38 @@
 		BEFFE9FFE52E9A0833A7D2D8FB67EB4D /* EXPMatchers+beSubclassOf.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AA64D65FC5C386A98928CFCF3FFC613 /* EXPMatchers+beSubclassOf.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		BF5CBA35330C8DD24489E35F1EDC0840 /* UIApplication+StrictKeyWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = 83C7A3CBD4EC406BA3EC10DE43725642 /* UIApplication+StrictKeyWindow.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		BF873F40F7DDA7684DF296D61B299BFE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 771EEE3DB79DD2B733F350B2BCB35F54 /* UIKit.framework */; };
+		C0C35DF20AB4F9A4C91496F4F8DB934B /* Artsy_UIFonts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9E6270FFE8FE2468BF45D1ED44D4209 /* Artsy_UIFonts.framework */; };
 		C1CC79ABD1C261812A69EE065228FE0D /* Pods-Extraction_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B07000D4476FD4166730F96E46FEFB2A /* Pods-Extraction_Example-dummy.m */; };
-		C5D569603512E6ECF70A14B904EE38A2 /* UIViewController+FLKAutoLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = BA9A10F9968D2E56C2CEC0E9F1D664B8 /* UIViewController+FLKAutoLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C608154760BF6085D2ECA64B22A89D8B /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12A724CA7F3D6C850098E4E59FB9934C /* XCTest.framework */; };
-		C8D6C7AD91970584E1A951D05A84126A /* FLKAutoLayoutPredicateList.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B19F4F6873E17C4DD1EE1579B2233F2 /* FLKAutoLayoutPredicateList.m */; };
-		CA5B12FEB99352AECF6BFA2BC6B259E9 /* FLKAutoLayout.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04A7BCB5B73E5A6318547C4FB5404325 /* FLKAutoLayout.framework */; };
 		CCAD49AB8AE7E5AFD2D91F81B372240F /* AGaramondPro-Semibold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 709986DEF96E78A359C0A0507FAFC3E3 /* AGaramondPro-Semibold.otf */; };
 		CD445FF2FDF3698A06F1FD16F917EFB9 /* UIImage+Diff.h in Headers */ = {isa = PBXBuildFile; fileRef = DF51EE5F07E672A14459223DFD07DF0A /* UIImage+Diff.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		CE3F4ECBB0BC095577D66AE50C8E604C /* EXPFloatTuple.m in Sources */ = {isa = PBXBuildFile; fileRef = 0541A46CE7B3031C0D46827EF3992E98 /* EXPFloatTuple.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		CEC33D8DBF52DC19EFF7C564F9FB6C1C /* SpectaDSL.h in Headers */ = {isa = PBXBuildFile; fileRef = DE4D4E8DDBB7F268320BFBC49813F785 /* SpectaDSL.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D1AE78CA41815F420BA3A131E23153C7 /* ExpectaObject+FBSnapshotTest.h in Headers */ = {isa = PBXBuildFile; fileRef = E9B6B81C337736E8391AB1451C3954C7 /* ExpectaObject+FBSnapshotTest.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D4CF6E4B0D773AAC911942C0BDB8DED3 /* Artsy_UIColors.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD9A4EC45ED593565E772857112FB882 /* Artsy_UIColors.framework */; };
-		D6FC67122F964011EF2ADA62F5552D2B /* NSObject+FLKAutoLayoutDebug.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A99F6F5496FC9D082093624EBB53F4E /* NSObject+FLKAutoLayoutDebug.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D3C29B6350E19F1D5DA4B98B6C23451E /* UIView+FLKAutoLayoutPredicate.h in Headers */ = {isa = PBXBuildFile; fileRef = 112638DC7DBC02AC837CD33C86E0A6BE /* UIView+FLKAutoLayoutPredicate.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D488D68FDC0EC5A40099D798968E5D18 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A80FDBE6429CFDD894BC2900FAEC79E8 /* Foundation.framework */; };
 		D83677C54D2226C67886A525B0B46FBE /* EXPMatchers+beLessThanOrEqualTo.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BF66F7F131B472DD457059B5202787E /* EXPMatchers+beLessThanOrEqualTo.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		DB30F82FB1BE083D9471B965FB500CA2 /* EXPMatchers+conformTo.m in Sources */ = {isa = PBXBuildFile; fileRef = 66D04F7F26510F5660EB8E57E044E27E /* EXPMatchers+conformTo.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		DC64F6CA7F8DB54879AD51C17C7E7E4D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A80FDBE6429CFDD894BC2900FAEC79E8 /* Foundation.framework */; };
 		DCACF0514B8EC4693C733BE78750FBF5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A80FDBE6429CFDD894BC2900FAEC79E8 /* Foundation.framework */; };
 		DCBCCF20588EE02988BAA9684DD75F06 /* SPTSharedExampleGroups.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F230159CA2D98351AA7F72900835FFB /* SPTSharedExampleGroups.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DD1E49EA3B6E8FFCE4E0464AA501FBAE /* SpectaTypes.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D85ADD57D4BCDF8AA008308B67F5CAD /* SpectaTypes.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DE13700D15CA792DCE84B0A026356BFF /* Extraction-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 88678863A32B470E5D8FA9D57D07B662 /* Extraction-dummy.m */; };
 		DE937C82457A96691A1CEB6E3707B9ED /* Artsy+UIFonts-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A2E5524A1F110114FE20A33E129FE3E /* Artsy+UIFonts-dummy.m */; };
+		E02A967E573ED43E38AAB0005F163E89 /* ARSpinner.h in Headers */ = {isa = PBXBuildFile; fileRef = 17431951120F9F14F1D6B6C42C6B7184 /* ARSpinner.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E0A077DFB064B79685B810CCEFB2F1EF /* EXPMatchers+respondTo.m in Sources */ = {isa = PBXBuildFile; fileRef = 771047D35106E7F68FF48D061A7D1D08 /* EXPMatchers+respondTo.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		E0AAF49134A0505DF00E20E7B62087E1 /* EXPMatchers+beIdenticalTo.h in Headers */ = {isa = PBXBuildFile; fileRef = 39B6B2AFA238A2611E011367AB926999 /* EXPMatchers+beIdenticalTo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E10F478B7AF515C3AAF8BE487244E257 /* UIViewController+FLKAutoLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 333C8C3AAF41EAF3552BA19D55807994 /* UIViewController+FLKAutoLayout.m */; };
 		E1EC4532663CA75DE5BD00CB0A56814D /* Expecta.h in Headers */ = {isa = PBXBuildFile; fileRef = D32A3B26705324C2D9EB28CA409A7786 /* Expecta.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E3420A5D13A34437CDA489C92B35B5B9 /* SPTExample.m in Sources */ = {isa = PBXBuildFile; fileRef = 35B4EF6477032A040DD23737650DCDD7 /* SPTExample.m */; };
+		E51316D254AC411533AC095A7ED303B6 /* ARAnimationContinuation.m in Sources */ = {isa = PBXBuildFile; fileRef = 354A6458093292402A7C3F18F3CA3214 /* ARAnimationContinuation.m */; };
+		E6A9FEA358E379DA90712D390D9AE712 /* UIView+FLKAutoLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 51FD568B633C5858163F3CFC5C6BDBF3 /* UIView+FLKAutoLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E735386085CE344F6A01178CF4763852 /* EXPMatchers+beNil.h in Headers */ = {isa = PBXBuildFile; fileRef = 5CDB7DAC483EDC8EF7B59E15D2B73B58 /* EXPMatchers+beNil.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E7AAE1D5607D1F6F1730249A53FF0687 /* UIView+FLKAutoLayoutDebug.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D9B0DC66AB99112717EF668A0564047 /* UIView+FLKAutoLayoutDebug.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E80402E273DABACF383A1593E820DBEC /* SPTExcludeGlobalBeforeAfterEach.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B38C435506974C95265BA0B6720BD09 /* SPTExcludeGlobalBeforeAfterEach.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EA0770E69CB71A0D09E9AC394D41154C /* SPTExampleGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 99C5D212FE6281C23B49BE00F46B12E2 /* SPTExampleGroup.m */; };
 		EA117F4DD0188BBAF6228760940337B5 /* SPTSpec.h in Headers */ = {isa = PBXBuildFile; fileRef = E0043C18F55C5D0D2531AA52F642CD54 /* SPTSpec.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EADA19B35BB4D79AABF77A76B9083D63 /* Artsy+UIFonts-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1BB18CC091EB84CDB2BC0F3679BC7986 /* Artsy+UIFonts-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EEEBD35C4B3BAA93911DD3EA150765EC /* UIView+BooleanAnimations.h in Headers */ = {isa = PBXBuildFile; fileRef = 75ED3A9C3D7B829DC246C004F9D84D6C /* UIView+BooleanAnimations.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EED291485018A8BA6EC265974C1D1E9D /* UIView+FLKAutoLayoutDebug.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D9B0DC66AB99112717EF668A0564047 /* UIView+FLKAutoLayoutDebug.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EF6497EE123F6BC0C1B09717437C5908 /* EXPUnsupportedObject.m in Sources */ = {isa = PBXBuildFile; fileRef = D44FB1CF68EF4343A761CE7C6EDDE7D6 /* EXPUnsupportedObject.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		EF81FC482C211F7952F51C009A4FAAE1 /* UIImage+Compare.h in Headers */ = {isa = PBXBuildFile; fileRef = 01D1AFA6647CEB1BF25666F0E3BFEEC3 /* UIImage+Compare.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		EFA01318600D93A14D153BB96C82C8FA /* UIViewController+FLKAutoLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 333C8C3AAF41EAF3552BA19D55807994 /* UIViewController+FLKAutoLayout.m */; };
 		F0DDF02A078B917997FF025BB33BB842 /* EXPMatchers+conformTo.h in Headers */ = {isa = PBXBuildFile; fileRef = 89EF51B5B62A3A71E4366A289A5507D0 /* EXPMatchers+conformTo.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F12D57414A73406831CC032A7170DBFF /* EXPMatchers+beginWith.m in Sources */ = {isa = PBXBuildFile; fileRef = 070191E3BDF2FBDFA34C2B5C469144FC /* EXPMatchers+beginWith.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		F175A90825CD71E04653683391437B9B /* Pods-Extraction_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DE2AC2EA23F800DE74B71044CC1560B8 /* Pods-Extraction_Tests-dummy.m */; };
@@ -201,14 +204,13 @@
 		F41209A94070904A00BDF24ACB6336B6 /* EXPMatchers+beFalsy.h in Headers */ = {isa = PBXBuildFile; fileRef = F34017507A1AD79D959B9647C76D286B /* EXPMatchers+beFalsy.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F4610218E8C4C923DB3F2BD83B84B502 /* UIColor+ArtsyColors.m in Sources */ = {isa = PBXBuildFile; fileRef = D85E108336307EE4AF3DF43FFE8D1805 /* UIColor+ArtsyColors.m */; };
 		F75CB2A727F678C9A848A3A11EA7979B /* EXPMatchers+haveCountOf.h in Headers */ = {isa = PBXBuildFile; fileRef = FCDC6B70D055F72C55D8BF0FBC0F5A84 /* EXPMatchers+haveCountOf.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F910778DECDB9283938FCE61D1B4CFA8 /* UIView+FLKAutoLayoutPredicate.m in Sources */ = {isa = PBXBuildFile; fileRef = 79F71D36648B94E1591D6EFEFF8031FB /* UIView+FLKAutoLayoutPredicate.m */; };
-		F93ED075C92F7458AB23EBB5AABAFFF7 /* FLKAutoLayout-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AFB250C4EA90F5A2BDF7475349746711 /* FLKAutoLayout-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F98C7053C60FBBE6FD51D25655E4C56E /* NSObject+FLKAutoLayoutDebug.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A99F6F5496FC9D082093624EBB53F4E /* NSObject+FLKAutoLayoutDebug.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F9A649E581178A873926579A11C659C3 /* UIView+FLKAutoLayoutPredicate.m in Sources */ = {isa = PBXBuildFile; fileRef = 79F71D36648B94E1591D6EFEFF8031FB /* UIView+FLKAutoLayoutPredicate.m */; };
 		FC20596ABFE14A61F171A29FD03275E7 /* EXPMatchers+contain.m in Sources */ = {isa = PBXBuildFile; fileRef = B8974050972B9B01DDCB0A4E8ACA45F5 /* EXPMatchers+contain.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		FC45858927D3B6A0F922C4B697B04A38 /* EXPMatchers+match.m in Sources */ = {isa = PBXBuildFile; fileRef = 57A000B59612ECD05BD812152FF4C67E /* EXPMatchers+match.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		FD2D4497BC41412128C2D87C1BDE7398 /* EXPMatchers+beginWith.h in Headers */ = {isa = PBXBuildFile; fileRef = 35FF6506267CA87E3A1CDA9F0FAA2059 /* EXPMatchers+beginWith.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FE4FCA167AC3BEFA21D8E58F21581304 /* Specta.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9F475CD26A12CCEF8506339BB29F7EE /* Specta.framework */; };
 		FE8E34356D24F6759A8B010ED2F5707B /* EXPMatchers+raiseWithReason.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A34357D730FC6E1F570F8E73DAAAB70 /* EXPMatchers+raiseWithReason.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		FF17829EC38F2DC75CC41B5DA4B16043 /* UIView_BooleanAnimations.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B30C20CDF9F9977B0DC20F1A3D373691 /* UIView_BooleanAnimations.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -233,12 +235,26 @@
 			remoteGlobalIDString = 0D888F29E05E498D0CD91A51D28599A5;
 			remoteInfo = Expecta;
 		};
+		0CA83C70DDA0C2AB1251297A2C2E5610 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A40655E07FB9082B05F7B87376B8656B;
+			remoteInfo = "Artsy+UIFonts";
+		};
 		13A5E5E417A9E3CCC4A94EFC2A84E76B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = A2A3C0473204CC437A1BD17496670355;
+			remoteGlobalIDString = CB36A4E427D7D1D5D493061CD8898E9A;
 			remoteInfo = Extraction;
+		};
+		24639A704C1EE7C4AE3687E497330697 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 71356BBC87B038A5BC137ECF5BB3E122;
+			remoteInfo = FLKAutoLayout;
 		};
 		2B89A0E69A079003B6F0DD31B4525B5A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -254,39 +270,32 @@
 			remoteGlobalIDString = AB055CDABAD5D9BD7C72D6FC05881DEF;
 			remoteInfo = FBSnapshotTestCase;
 		};
+		389223BB59042604D606D893093EB403 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3E4767A6AF9C602200BC49F3376F0547;
+			remoteInfo = "UIView+BooleanAnimations";
+		};
+		3897E64BE5267854FA31ED7E59B81DB0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 005F3A0844BAFE222C1BA2D1B36022C1;
+			remoteInfo = "Artsy+UIColors";
+		};
 		3C754EE74EFE996BE210808FB5CD1FCC /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 6507167916BEC5E72AB8CE33F5799F26;
+			remoteGlobalIDString = 3E4767A6AF9C602200BC49F3376F0547;
 			remoteInfo = "UIView+BooleanAnimations";
-		};
-		489BA2F922078F857E5FB9DF2F87E881 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 6507167916BEC5E72AB8CE33F5799F26;
-			remoteInfo = "UIView+BooleanAnimations";
-		};
-		4AD6AB6E00AF01E82C0200DA3488B549 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 4318364745738A04D379C779511364F8;
-			remoteInfo = FLKAutoLayout;
-		};
-		64FD3810A5A36264D7D2F608354AD354 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = A40655E07FB9082B05F7B87376B8656B;
-			remoteInfo = "Artsy+UIFonts";
 		};
 		68BB6420DB7DC7BFBA53C2E4D11DB1F0 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 4318364745738A04D379C779511364F8;
+			remoteGlobalIDString = 71356BBC87B038A5BC137ECF5BB3E122;
 			remoteInfo = FLKAutoLayout;
 		};
 		75AC966771A8A3AC56D423DE0AAD9CC1 /* PBXContainerItemProxy */ = {
@@ -310,13 +319,6 @@
 			remoteGlobalIDString = AB055CDABAD5D9BD7C72D6FC05881DEF;
 			remoteInfo = FBSnapshotTestCase;
 		};
-		B9E288AFC59AF983BE19EA533A28D783 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 005F3A0844BAFE222C1BA2D1B36022C1;
-			remoteInfo = "Artsy+UIColors";
-		};
 		C3FA93A309CF910B5AB5F2BA9A2E2D54 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
@@ -338,7 +340,6 @@
 		070191E3BDF2FBDFA34C2B5C469144FC /* EXPMatchers+beginWith.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+beginWith.m"; path = "Expecta/Matchers/EXPMatchers+beginWith.m"; sourceTree = "<group>"; };
 		074D18F9DF59EF388939DC628A38574F /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		089071CA92D80930499C020C5730945C /* EXPMatchers+haveCountOf.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+haveCountOf.m"; path = "Expecta/Matchers/EXPMatchers+haveCountOf.m"; sourceTree = "<group>"; };
-		0A283898B9765A415971C8B10BCA34E5 /* UIView+ARSpinner.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIView+ARSpinner.m"; sourceTree = "<group>"; };
 		0A2E5524A1F110114FE20A33E129FE3E /* Artsy+UIFonts-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Artsy+UIFonts-dummy.m"; sourceTree = "<group>"; };
 		0A3DDF8AD9414E95E6A2E45752CF5419 /* EXPBlockDefinedMatcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXPBlockDefinedMatcher.h; path = Expecta/EXPBlockDefinedMatcher.h; sourceTree = "<group>"; };
 		0B0E3CBE45D0A609BC72FA6B3ADC9C55 /* EXPMatchers+beInTheRangeOf.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+beInTheRangeOf.h"; path = "Expecta/Matchers/EXPMatchers+beInTheRangeOf.h"; sourceTree = "<group>"; };
@@ -346,17 +347,16 @@
 		0B396A005305298345196D0124B58AAE /* SPTCompiledExample.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPTCompiledExample.h; path = Specta/Specta/SPTCompiledExample.h; sourceTree = "<group>"; };
 		112638DC7DBC02AC837CD33C86E0A6BE /* UIView+FLKAutoLayoutPredicate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+FLKAutoLayoutPredicate.h"; path = "FLKAutoLayout/Private/UIView+FLKAutoLayoutPredicate.h"; sourceTree = "<group>"; };
 		112A497E9DAAF24AFDA7104506112E6A /* EXPExpect.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EXPExpect.m; path = Expecta/EXPExpect.m; sourceTree = "<group>"; };
-		1251E168C2B6627B4234E02EC3F56B90 /* Extraction.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Extraction.xcconfig; sourceTree = "<group>"; };
 		12A724CA7F3D6C850098E4E59FB9934C /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		13BC170E606816B906AAB9A65CD97DA1 /* EXPMatchers+postNotification.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+postNotification.h"; path = "Expecta/Matchers/EXPMatchers+postNotification.h"; sourceTree = "<group>"; };
 		13E1889C2E0D35F4BEF8E1A8A4C5E931 /* EXPMatcherHelpers.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EXPMatcherHelpers.m; path = Expecta/Matchers/EXPMatcherHelpers.m; sourceTree = "<group>"; };
 		1469B5A9F9C90E3B52357C8950AF83E0 /* EXPMatchers+beLessThan.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+beLessThan.h"; path = "Expecta/Matchers/EXPMatchers+beLessThan.h"; sourceTree = "<group>"; };
 		15B89D5AE10E7F5BF4C411F27EAE3813 /* UIView+BooleanAnimations.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIView+BooleanAnimations.m"; sourceTree = "<group>"; };
 		16D1DA54CEA6BF6F702C85C85B9FA53B /* EXPMatchers+beLessThanOrEqualTo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+beLessThanOrEqualTo.h"; path = "Expecta/Matchers/EXPMatchers+beLessThanOrEqualTo.h"; sourceTree = "<group>"; };
+		17431951120F9F14F1D6B6C42C6B7184 /* ARSpinner.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ARSpinner.h; sourceTree = "<group>"; };
 		18B8ACF877A1DF9BE18F16AE05B792C3 /* EXPExpect.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXPExpect.h; path = Expecta/EXPExpect.h; sourceTree = "<group>"; };
 		18E5E8DC669CDCD4CD3A4DB5534AD1E6 /* SPTExampleGroup.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPTExampleGroup.h; path = Specta/Specta/SPTExampleGroup.h; sourceTree = "<group>"; };
 		1999872218131BF8657D2442F2BDD355 /* EXPMatchers+beGreaterThan.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+beGreaterThan.h"; path = "Expecta/Matchers/EXPMatchers+beGreaterThan.h"; sourceTree = "<group>"; };
-		1AA15C559F6EF7B0323DCB80C097CB11 /* ARSpinner.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ARSpinner.m; sourceTree = "<group>"; };
 		1B687BF190A38433FA3051B6EEDFE247 /* EXPBlockDefinedMatcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EXPBlockDefinedMatcher.m; path = Expecta/EXPBlockDefinedMatcher.m; sourceTree = "<group>"; };
 		1BB18CC091EB84CDB2BC0F3679BC7986 /* Artsy+UIFonts-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Artsy+UIFonts-umbrella.h"; sourceTree = "<group>"; };
 		1BF66F7F131B472DD457059B5202787E /* EXPMatchers+beLessThanOrEqualTo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+beLessThanOrEqualTo.m"; path = "Expecta/Matchers/EXPMatchers+beLessThanOrEqualTo.m"; sourceTree = "<group>"; };
@@ -367,19 +367,24 @@
 		20CC73CF7310812AAE541F76AA0463FE /* NSObject+FLKAutoLayoutDebug.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+FLKAutoLayoutDebug.m"; path = "FLKAutoLayout/NSObject+FLKAutoLayoutDebug.m"; sourceTree = "<group>"; };
 		20E6CD073CB972CA34F51FAF78FE6BC0 /* FBSnapshotTestCase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FBSnapshotTestCase-dummy.m"; sourceTree = "<group>"; };
 		220D2EBD172AE25CF4F5727041AFF412 /* Artsy+UIColors-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Artsy+UIColors-umbrella.h"; sourceTree = "<group>"; };
+		23C846AB9F6FA73CA68E608F00345F0B /* ARSpinner.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ARSpinner.m; sourceTree = "<group>"; };
 		23E254CE1A2040351D0A616F961B84E9 /* SPTTestSuite.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SPTTestSuite.m; path = Specta/Specta/SPTTestSuite.m; sourceTree = "<group>"; };
 		248F560153DEEAEEA86ADAB7F7FF2B79 /* AGaramondPro-BoldItalic.otf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = "AGaramondPro-BoldItalic.otf"; path = "Pod/Assets/AGaramondPro-BoldItalic.otf"; sourceTree = "<group>"; };
 		259504ABEB566F58EAA781C35D3BDCB2 /* Artsy_UIColors.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Artsy_UIColors.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		273CB6655F40A313581A06717A4A5D3A /* EXPMatchers+raise.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+raise.h"; path = "Expecta/Matchers/EXPMatchers+raise.h"; sourceTree = "<group>"; };
 		28908BBCBF0569BE65B6A1FC7F70B713 /* EXPMatchers+beGreaterThanOrEqualTo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+beGreaterThanOrEqualTo.m"; path = "Expecta/Matchers/EXPMatchers+beGreaterThanOrEqualTo.m"; sourceTree = "<group>"; };
+		291359858B319CAAA7594C0AE1AFEDFC /* ARSwitchView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ARSwitchView.m; sourceTree = "<group>"; };
 		2A4F1C36EA88FE42C88F803DFA2F9CDC /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A9F8C36978241D274E73AC93BC5A0FC /* Pods-Extraction_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Extraction_Example.release.xcconfig"; sourceTree = "<group>"; };
+		2C42B635F0F093B7273BC15E22EC2AE0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2F9CAA1F36C5C439DA8E3FBC3221BE97 /* EXPMatchers+endWith.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+endWith.h"; path = "Expecta/Matchers/EXPMatchers+endWith.h"; sourceTree = "<group>"; };
-		2FBBC424897C981B6C2327F770ABB49C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		333C8C3AAF41EAF3552BA19D55807994 /* UIViewController+FLKAutoLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+FLKAutoLayout.m"; path = "FLKAutoLayout/UIViewController+FLKAutoLayout.m"; sourceTree = "<group>"; };
+		334BC7DEB9892A9F14323649C27D43CB /* Extraction-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Extraction-prefix.pch"; sourceTree = "<group>"; };
+		354A6458093292402A7C3F18F3CA3214 /* ARAnimationContinuation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ARAnimationContinuation.m; sourceTree = "<group>"; };
 		35B4EF6477032A040DD23737650DCDD7 /* SPTExample.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SPTExample.m; path = Specta/Specta/SPTExample.m; sourceTree = "<group>"; };
 		35FF6506267CA87E3A1CDA9F0FAA2059 /* EXPMatchers+beginWith.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+beginWith.h"; path = "Expecta/Matchers/EXPMatchers+beginWith.h"; sourceTree = "<group>"; };
 		375B10FBA026D15B229A30F795F4686F /* Specta-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Specta-umbrella.h"; sourceTree = "<group>"; };
+		388409D03E2707FC0AFD5E161BE1778E /* ARAnimationContinuation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ARAnimationContinuation.h; sourceTree = "<group>"; };
 		392BE5AAC7DD44B3B6E184B90134A5A3 /* Pods-Extraction_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Extraction_Example-umbrella.h"; sourceTree = "<group>"; };
 		39B6B2AFA238A2611E011367AB926999 /* EXPMatchers+beIdenticalTo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+beIdenticalTo.h"; path = "Expecta/Matchers/EXPMatchers+beIdenticalTo.h"; sourceTree = "<group>"; };
 		3A15BFAA698917AFD15A81C80B03D01E /* EXPMatchers+beCloseTo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+beCloseTo.m"; path = "Expecta/Matchers/EXPMatchers+beCloseTo.m"; sourceTree = "<group>"; };
@@ -403,7 +408,6 @@
 		494042245FA9AFB4E11AFC40A4CFD99A /* Pods-Extraction_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Extraction_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		49CEB4ABA560981F717E74437816F913 /* FBSnapshotTestController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestController.m; path = FBSnapshotTestCase/FBSnapshotTestController.m; sourceTree = "<group>"; };
 		507549BC612F47BAE8036A06A2FA622B /* Artsy+UIColors-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Artsy+UIColors-dummy.m"; sourceTree = "<group>"; };
-		51EAC2D10FB9C5A7CF7C0FBBF66C7489 /* ARSpinner.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ARSpinner.h; sourceTree = "<group>"; };
 		51FD568B633C5858163F3CFC5C6BDBF3 /* UIView+FLKAutoLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+FLKAutoLayout.h"; path = "FLKAutoLayout/UIView+FLKAutoLayout.h"; sourceTree = "<group>"; };
 		54A22E5FEB5F2B391D4EEB798C2DD01A /* SPTCallSite.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPTCallSite.h; path = Specta/Specta/SPTCallSite.h; sourceTree = "<group>"; };
 		54D02AB30F7ADE8D9392E978E9105B16 /* EXPDoubleTuple.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EXPDoubleTuple.m; path = Expecta/EXPDoubleTuple.m; sourceTree = "<group>"; };
@@ -417,6 +421,7 @@
 		5ABD4FF90488B1732835B1AE7D82336D /* UIView+BooleanAnimations.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "UIView+BooleanAnimations.xcconfig"; sourceTree = "<group>"; };
 		5B19F4F6873E17C4DD1EE1579B2233F2 /* FLKAutoLayoutPredicateList.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FLKAutoLayoutPredicateList.m; path = FLKAutoLayout/Private/FLKAutoLayoutPredicateList.m; sourceTree = "<group>"; };
 		5BE3EBE3BC29F7E8FEC967618DB114CF /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		5C4F78EE6144FC6160EEEE9E6768DF71 /* Extraction.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Extraction.modulemap; sourceTree = "<group>"; };
 		5CDB7DAC483EDC8EF7B59E15D2B73B58 /* EXPMatchers+beNil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+beNil.h"; path = "Expecta/Matchers/EXPMatchers+beNil.h"; sourceTree = "<group>"; };
 		5D08D6F1F3415AC04819BE463385E683 /* XCTestCase+Specta.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "XCTestCase+Specta.h"; path = "Specta/Specta/XCTestCase+Specta.h"; sourceTree = "<group>"; };
 		5D169CDF98FBBD2167408C1D540AABA6 /* FLKAutoLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FLKAutoLayout.h; path = FLKAutoLayout/FLKAutoLayout.h; sourceTree = "<group>"; };
@@ -435,6 +440,7 @@
 		6D85ADD57D4BCDF8AA008308B67F5CAD /* SpectaTypes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SpectaTypes.h; path = Specta/Specta/SpectaTypes.h; sourceTree = "<group>"; };
 		709986DEF96E78A359C0A0507FAFC3E3 /* AGaramondPro-Semibold.otf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = "AGaramondPro-Semibold.otf"; path = "Pod/Assets/AGaramondPro-Semibold.otf"; sourceTree = "<group>"; };
 		710CFF47B8D9AA0795547462EDEDE047 /* FLKAutoLayout.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FLKAutoLayout.xcconfig; sourceTree = "<group>"; };
+		710F2896CF5E54468E679DC2B401225F /* UIView+ARSpinner.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIView+ARSpinner.m"; sourceTree = "<group>"; };
 		728C87CE92AB6C62C47E8AB2F1C2696A /* FBSnapshotTestCase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = FBSnapshotTestCase.modulemap; sourceTree = "<group>"; };
 		733FD9F114B583A66B4A3FB54E3223E2 /* Pods-Extraction_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Extraction_Example-frameworks.sh"; sourceTree = "<group>"; };
 		7464006024D7E8A37E6A194C62EED87B /* FBSnapshotTestController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestController.h; path = FBSnapshotTestCase/FBSnapshotTestController.h; sourceTree = "<group>"; };
@@ -447,25 +453,22 @@
 		79F71D36648B94E1591D6EFEFF8031FB /* UIView+FLKAutoLayoutPredicate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+FLKAutoLayoutPredicate.m"; path = "FLKAutoLayout/Private/UIView+FLKAutoLayoutPredicate.m"; sourceTree = "<group>"; };
 		7AA64D65FC5C386A98928CFCF3FFC613 /* EXPMatchers+beSubclassOf.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+beSubclassOf.m"; path = "Expecta/Matchers/EXPMatchers+beSubclassOf.m"; sourceTree = "<group>"; };
 		7B2F7402498E1AA907BD2677E5EC1077 /* Specta-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Specta-prefix.pch"; sourceTree = "<group>"; };
-		7C95F926502A636FB9A5C8685B1CC06E /* UIView+ARSpinner.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIView+ARSpinner.h"; sourceTree = "<group>"; };
 		7CF7391D6DC4348BC5D140B9348F548D /* NSObject+Expecta.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+Expecta.h"; path = "Expecta/NSObject+Expecta.h"; sourceTree = "<group>"; };
 		7DA1F305054F0EFCC3D0E72D0E60AD21 /* UIApplication+StrictKeyWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+StrictKeyWindow.m"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.m"; sourceTree = "<group>"; };
 		801B92DC784C71A72A177A52A91C08D9 /* UIView+FLKAutoLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+FLKAutoLayout.m"; path = "FLKAutoLayout/UIView+FLKAutoLayout.m"; sourceTree = "<group>"; };
 		80AF66F7041A79FD6B38B10717EC13A6 /* EXPMatchers+match.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+match.h"; path = "Expecta/Matchers/EXPMatchers+match.h"; sourceTree = "<group>"; };
 		83C7A3CBD4EC406BA3EC10DE43725642 /* UIApplication+StrictKeyWindow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIApplication+StrictKeyWindow.h"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.h"; sourceTree = "<group>"; };
-		85764629A47E03DD2A1D00F1102D42EF /* Extraction-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Extraction-umbrella.h"; sourceTree = "<group>"; };
 		85AD618DAEDB5216724D4E2840298304 /* Specta.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Specta.xcconfig; sourceTree = "<group>"; };
 		85B97CBD2189A857E600B24041C2937B /* EXPMatchers+beGreaterThan.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+beGreaterThan.m"; path = "Expecta/Matchers/EXPMatchers+beGreaterThan.m"; sourceTree = "<group>"; };
-		88678863A32B470E5D8FA9D57D07B662 /* Extraction-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Extraction-dummy.m"; sourceTree = "<group>"; };
 		892D280ED0D724F6E69E6C6602A07235 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		89EF51B5B62A3A71E4366A289A5507D0 /* EXPMatchers+conformTo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+conformTo.h"; path = "Expecta/Matchers/EXPMatchers+conformTo.h"; sourceTree = "<group>"; };
 		8A9200F97381CFDD2E95DBAF5A551F2E /* Expecta.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Expecta.xcconfig; sourceTree = "<group>"; };
 		8ACADDCA7FC23CF6096D64CEC49B0119 /* Expecta_Snapshots.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Expecta_Snapshots.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C18E05E075BD2076F02951645C68B28 /* Extraction-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Extraction-umbrella.h"; sourceTree = "<group>"; };
 		8C616962F8B1DC098C790209A976BFB8 /* FLKAutoLayout.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = FLKAutoLayout.modulemap; sourceTree = "<group>"; };
 		8CAE84824B386FCFE3F9C8FF555F960B /* SpectaUtility.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SpectaUtility.h; path = Specta/Specta/SpectaUtility.h; sourceTree = "<group>"; };
 		8D196E97912A27139EB32DE997508C42 /* Specta-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Specta-dummy.m"; sourceTree = "<group>"; };
 		8DBCEAB8C8240C4706AFEF53225C1900 /* UIImage+Snapshot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Snapshot.h"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.h"; sourceTree = "<group>"; };
-		8E98A846B2C38190948C80BCD2A67DC3 /* Extraction-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Extraction-prefix.pch"; sourceTree = "<group>"; };
 		90B2886DB1A328A522DBB1938B783BE4 /* UIImage+Diff.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Diff.m"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.m"; sourceTree = "<group>"; };
 		92035DB5909EB77CB8513F57DCAD05E8 /* Pods-Extraction_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Extraction_Example.modulemap"; sourceTree = "<group>"; };
 		92BDB4EFF27A03AB2122E87740AAFB7D /* SPTSpec.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SPTSpec.m; path = Specta/Specta/SPTSpec.m; sourceTree = "<group>"; };
@@ -480,6 +483,7 @@
 		9C52CFB7156C65DC65E55D948A303593 /* SpectaUtility.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SpectaUtility.m; path = Specta/Specta/SpectaUtility.m; sourceTree = "<group>"; };
 		9F624839106235D7C7F2545F2B763031 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9FCFD3C6E3506F9A4FA0E2787C97ECCA /* EXPMatchers+equal.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+equal.m"; path = "Expecta/Matchers/EXPMatchers+equal.m"; sourceTree = "<group>"; };
+		A0967808772D5818FDD0F7E96B6F9288 /* Extraction-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Extraction-dummy.m"; sourceTree = "<group>"; };
 		A25415495BC2AAD09C97B30182350B2E /* FBSnapshotTestCasePlatform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCasePlatform.m; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.m; sourceTree = "<group>"; };
 		A2AA25F0FF8B12596D8FAE95D21C3EFD /* FLKAutoLayout-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FLKAutoLayout-prefix.pch"; sourceTree = "<group>"; };
 		A4A80C82DC34DC10A3DB8C94AA9A99A7 /* EXPMatchers+postNotification.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+postNotification.m"; path = "Expecta/Matchers/EXPMatchers+postNotification.m"; sourceTree = "<group>"; };
@@ -489,7 +493,6 @@
 		ABAE9CE9DEEC5D368F6AA339FB9A70A0 /* Expecta-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Expecta-umbrella.h"; sourceTree = "<group>"; };
 		AC9A14361A266719F2F60CF30858F639 /* FLKAutoLayoutPredicateList.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FLKAutoLayoutPredicateList.h; path = FLKAutoLayout/Private/FLKAutoLayoutPredicateList.h; sourceTree = "<group>"; };
 		ACBC999D9838E698E6194AF48D4AF76F /* EXPMatchers+beSupersetOf.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+beSupersetOf.h"; path = "Expecta/Matchers/EXPMatchers+beSupersetOf.h"; sourceTree = "<group>"; };
-		AE1850D8216A423F2D3D74FD929EA079 /* ARSwitchView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ARSwitchView.h; sourceTree = "<group>"; };
 		AE2052AB5CAC61E275DCD23ED01A009D /* EXPMatchers+equal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+equal.h"; path = "Expecta/Matchers/EXPMatchers+equal.h"; sourceTree = "<group>"; };
 		AE41748A93DE75B154D47C40D5AC6A1B /* FLKAutoLayout-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FLKAutoLayout-dummy.m"; sourceTree = "<group>"; };
 		AFB250C4EA90F5A2BDF7475349746711 /* FLKAutoLayout-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FLKAutoLayout-umbrella.h"; sourceTree = "<group>"; };
@@ -506,11 +509,12 @@
 		BD4BF6284F547B323DD3443043C73819 /* ExpectaObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ExpectaObject.h; path = Expecta/ExpectaObject.h; sourceTree = "<group>"; };
 		BE1B63FB273866F690A533A6C03E2938 /* NSValue+Expecta.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSValue+Expecta.h"; path = "Expecta/NSValue+Expecta.h"; sourceTree = "<group>"; };
 		BE3FF411E3E0695E7E9601E94063B67E /* EXPMatchers+beInstanceOf.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+beInstanceOf.h"; path = "Expecta/Matchers/EXPMatchers+beInstanceOf.h"; sourceTree = "<group>"; };
+		BEE12058B533D634F0105589A7375CB9 /* Extraction.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Extraction.xcconfig; sourceTree = "<group>"; };
+		C0E1FAC6FC0E1A1E9B75400EE9D2F253 /* UIView+ARSpinner.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIView+ARSpinner.h"; sourceTree = "<group>"; };
 		C0F93951B0D8B97201037749960E8A72 /* Specta.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Specta.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C186423E8FAF62694CC981A604CE9167 /* Pods-Extraction_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Extraction_Tests-resources.sh"; sourceTree = "<group>"; };
 		C1BD01B30A849DBEDB7CA632FD5CBED5 /* UIView+BooleanAnimations-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIView+BooleanAnimations-dummy.m"; sourceTree = "<group>"; };
 		C1F6C8E1CDED89083F1DE9DB68AFAE78 /* Expecta-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Expecta-prefix.pch"; sourceTree = "<group>"; };
-		C20114D82BBA58D00B6DF3DFC3ACC766 /* Extraction.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Extraction.modulemap; sourceTree = "<group>"; };
 		C4A34BD404E212970646910AF131DB6F /* SPTSharedExampleGroups.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SPTSharedExampleGroups.m; path = Specta/Specta/SPTSharedExampleGroups.m; sourceTree = "<group>"; };
 		C514536865C5D62A6E32B65AC59F2739 /* Expecta.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Expecta.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C59FE1EE9ABF68A004B1E9E35E72988F /* FLKAutoLayout.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FLKAutoLayout.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -528,7 +532,6 @@
 		D3CC58D7BC33E0DB20608054B7F8E35E /* UIView_BooleanAnimations.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = UIView_BooleanAnimations.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D41D74CA5972B22DFC8B3F41566FAABA /* EXPMatcherHelpers.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXPMatcherHelpers.h; path = Expecta/Matchers/EXPMatcherHelpers.h; sourceTree = "<group>"; };
 		D44FB1CF68EF4343A761CE7C6EDDE7D6 /* EXPUnsupportedObject.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EXPUnsupportedObject.m; path = Expecta/EXPUnsupportedObject.m; sourceTree = "<group>"; };
-		D57E1C2CDC3099CB34744F00CAB0AABC /* ARSwitchView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ARSwitchView.m; sourceTree = "<group>"; };
 		D6698EC51DCFBF98BBC73FF7DDE2C229 /* Pods-Extraction_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Extraction_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		D6C98D5BEBA19644F33A087B17C9A7DD /* FBSnapshotTestCasePlatform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCasePlatform.h; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.h; sourceTree = "<group>"; };
 		D6DC38D0AD10CBE8FC9EA5602FFE8B45 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -564,6 +567,7 @@
 		EE36D6B6DBE68DD1B52BA39416784A95 /* UIView+FLKAutoLayoutDebug.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+FLKAutoLayoutDebug.m"; path = "FLKAutoLayout/UIView+FLKAutoLayoutDebug.m"; sourceTree = "<group>"; };
 		EE5AAF1EFD0D7CFD6FC3C8BEAC7C6D19 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EF83683DD964CE653B1941A2861AD383 /* Pods-Extraction_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Extraction_Tests-umbrella.h"; sourceTree = "<group>"; };
+		F21FF4B3A0C4F0290BF561B39D83FA09 /* ARSwitchView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ARSwitchView.h; sourceTree = "<group>"; };
 		F26A6C5D1F3F5C00D7D4D06A67AEFF88 /* FBSnapshotTestCase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCase.h; path = FBSnapshotTestCase/FBSnapshotTestCase.h; sourceTree = "<group>"; };
 		F2F861120A038AFCD063127194D5F82C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F34017507A1AD79D959B9647C76D286B /* EXPMatchers+beFalsy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+beFalsy.h"; path = "Expecta/Matchers/EXPMatchers+beFalsy.h"; sourceTree = "<group>"; };
@@ -598,24 +602,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4A754428635404120E2039DA1DA032C9 /* Frameworks */ = {
+		57F90957CEF4FAAAEFF9B8566A033301 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D4CF6E4B0D773AAC911942C0BDB8DED3 /* Artsy_UIColors.framework in Frameworks */,
-				88E3C03A532D018538F5FBFFEA56C787 /* Artsy_UIFonts.framework in Frameworks */,
-				CA5B12FEB99352AECF6BFA2BC6B259E9 /* FLKAutoLayout.framework in Frameworks */,
-				981B5C7A3CA090674524870929D91976 /* Foundation.framework in Frameworks */,
-				FF17829EC38F2DC75CC41B5DA4B16043 /* UIView_BooleanAnimations.framework in Frameworks */,
+				8E72697909AD1A6F21533CE846A4C87E /* Foundation.framework in Frameworks */,
+				96EC9D5E6E366280BDAD9F89AEB6E555 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4C906FFCB7C51C9ACE81C4D3C9A62742 /* Frameworks */ = {
+		5B975C62587EC43744C36BB4C046BEA5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DC64F6CA7F8DB54879AD51C17C7E7E4D /* Foundation.framework in Frameworks */,
-				8FB1670E6611FA3331BA4A7B00E869F1 /* UIKit.framework in Frameworks */,
+				228C6CCE40B11619D6CED5F0E07C0C7E /* Artsy_UIColors.framework in Frameworks */,
+				C0C35DF20AB4F9A4C91496F4F8DB934B /* Artsy_UIFonts.framework in Frameworks */,
+				6319A1CB851DA6EB5BC21ACA8EAEA3D4 /* FLKAutoLayout.framework in Frameworks */,
+				3DB6A5D66F08116901667AA6DA4F3EB2 /* Foundation.framework in Frameworks */,
+				B501C92550DC569A1FC098E3A29F2917 /* UIView_BooleanAnimations.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -659,20 +663,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DCDB3E27DC15DD91E08B94CC6E2DE242 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				0EA536562EECEB08458D900CDFE48D6E /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		DE86FD711FF0BFA032D48B4D053F643D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				653BC1C3ACB66094A0B64D1996F05BA2 /* Foundation.framework in Frameworks */,
 				BF873F40F7DDA7684DF296D61B299BFE /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2EE22EB71BBD336BC1D9F0366A342A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D488D68FDC0EC5A40099D798968E5D18 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -688,15 +692,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		008D3A9F5FC3BBFAE7051F73BC271130 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				7C95F926502A636FB9A5C8685B1CC06E /* UIView+ARSpinner.h */,
-				0A283898B9765A415971C8B10BCA34E5 /* UIView+ARSpinner.m */,
-			);
-			path = Classes;
-			sourceTree = "<group>";
-		};
 		063AA5D29D6797ACDE093D7C72869522 /* FLKAutoLayout */ = {
 			isa = PBXGroup;
 			children = (
@@ -718,6 +713,15 @@
 				CA45675809CEB29E2B2A6C67718148B1 /* Support Files */,
 			);
 			path = FLKAutoLayout;
+			sourceTree = "<group>";
+		};
+		08A4C7680C9383B420B7689F59E5CE33 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				388409D03E2707FC0AFD5E161BE1778E /* ARAnimationContinuation.h */,
+				354A6458093292402A7C3F18F3CA3214 /* ARAnimationContinuation.m */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 		097736CECE65A42326C275AD2350496B /* FBSnapshotTestCase */ = {
@@ -742,6 +746,31 @@
 			);
 			name = "Support Files";
 			path = "../Target Support Files/UIView+BooleanAnimations";
+			sourceTree = "<group>";
+		};
+		0C2E9A334EFAA34C1FA7A5FE15E9301D /* UIView+ARSpinner */ = {
+			isa = PBXGroup;
+			children = (
+				2A0495A512171C61E1FBC84F05EBB737 /* Extraction */,
+			);
+			name = "UIView+ARSpinner";
+			sourceTree = "<group>";
+		};
+		13A07AC506999E69D7FB711D89783E90 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				17431951120F9F14F1D6B6C42C6B7184 /* ARSpinner.h */,
+				23C846AB9F6FA73CA68E608F00345F0B /* ARSpinner.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		17B535C0BD13D0EA2A022DF8A1331E95 /* ARSwitchView */ = {
+			isa = PBXGroup;
+			children = (
+				3583CCFBADA564CFE8F05EB04B0F31DA /* Extraction */,
+			);
+			name = ARSwitchView;
 			sourceTree = "<group>";
 		};
 		1DA137E9EDCE2F9D194CE1F5106327B7 /* Expecta */ = {
@@ -898,16 +927,29 @@
 			path = "../Target Support Files/Expecta+Snapshots";
 			sourceTree = "<group>";
 		};
-		4853721194752017F7E74D018AA4FA2F /* Extraction */ = {
+		2A0495A512171C61E1FBC84F05EBB737 /* Extraction */ = {
 			isa = PBXGroup;
 			children = (
-				E60A1CD37CBC2307651D270C51DF896F /* ARSpinner */,
-				757DF6B6915E1E2E77267277C029A5D4 /* ARSwitchView */,
-				FF3A2C9D8570315CCEDD70A4405B5D11 /* Support Files */,
-				EFC8DC683DEF9004FCA032BCC33672F5 /* UIView+ARSpinner */,
+				42C0E46A76127E9E80FA6FCE86492E5E /* Classes */,
 			);
-			name = Extraction;
-			path = ../..;
+			path = Extraction;
+			sourceTree = "<group>";
+		};
+		3583CCFBADA564CFE8F05EB04B0F31DA /* Extraction */ = {
+			isa = PBXGroup;
+			children = (
+				DDE207A38C424A0A8C73DC189A8707CF /* Classes */,
+			);
+			path = Extraction;
+			sourceTree = "<group>";
+		};
+		42C0E46A76127E9E80FA6FCE86492E5E /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				C0E1FAC6FC0E1A1E9B75400EE9D2F253 /* UIView+ARSpinner.h */,
+				710F2896CF5E54468E679DC2B401225F /* UIView+ARSpinner.m */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 		48C037151B81A473E86EA2758A465B63 /* Support Files */ = {
@@ -922,6 +964,14 @@
 			);
 			name = "Support Files";
 			path = "../Target Support Files/Specta";
+			sourceTree = "<group>";
+		};
+		4BA5AC3854B9B408D1F2D1E1E0982654 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F0B03FA0B867BD21BC216DDB65B57964 /* Extraction */,
+			);
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		4CAD90701AF96223DD8B87627551ACD4 /* Pods-Extraction_Tests */ = {
@@ -953,14 +1003,6 @@
 			path = "Artsy+UIFonts";
 			sourceTree = "<group>";
 		};
-		540A1C25FC5377ACE41040F60C24637B /* Extraction */ = {
-			isa = PBXGroup;
-			children = (
-				ECDD211980CE3793DF64DBFA62B85292 /* Classes */,
-			);
-			path = Extraction;
-			sourceTree = "<group>";
-		};
 		549F7725D795E1DA82F263E5A8E991B2 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -971,15 +1013,6 @@
 				12A724CA7F3D6C850098E4E59FB9934C /* XCTest.framework */,
 			);
 			name = iOS;
-			sourceTree = "<group>";
-		};
-		569DE388694F8A37884A5DEB13E54B87 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				AE1850D8216A423F2D3D74FD929EA079 /* ARSwitchView.h */,
-				D57E1C2CDC3099CB34744F00CAB0AABC /* ARSwitchView.m */,
-			);
-			path = Classes;
 			sourceTree = "<group>";
 		};
 		5CB0247D62BD6148B31B4E15A9058E3E /* Specta */ = {
@@ -1045,12 +1078,12 @@
 			path = "Expecta+Snapshots";
 			sourceTree = "<group>";
 		};
-		757DF6B6915E1E2E77267277C029A5D4 /* ARSwitchView */ = {
+		6966CC82271C1596258D5A99950FBC09 /* ARAnimationContinuation */ = {
 			isa = PBXGroup;
 			children = (
-				C0C1BDB73E80BAC6DBD6627E1BBB93C9 /* Extraction */,
+				B0468A4A616DCE1891BE133D58488333 /* Extraction */,
 			);
-			name = ARSwitchView;
+			name = ARAnimationContinuation;
 			sourceTree = "<group>";
 		};
 		7A0C08E4E010807E0A34436F69C098D0 /* Support Files */ = {
@@ -1071,7 +1104,7 @@
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				EE0D44D5F7EA3938B0833680FD0830B7 /* Development Pods */,
+				4BA5AC3854B9B408D1F2D1E1E0982654 /* Development Pods */,
 				C0EDF453FA3E9D6CB44C44D646C9C7BF /* Frameworks */,
 				91CB39536EE7D3547C3C2A0CBDCD4864 /* Pods */,
 				D0B5A132A79F7F8238CF7555CB4519B3 /* Products */,
@@ -1088,6 +1121,20 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
+		90E98D8FBCB7D8EDC80A86605DEB1AF7 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5C4F78EE6144FC6160EEEE9E6768DF71 /* Extraction.modulemap */,
+				BEE12058B533D634F0105589A7375CB9 /* Extraction.xcconfig */,
+				A0967808772D5818FDD0F7E96B6F9288 /* Extraction-dummy.m */,
+				334BC7DEB9892A9F14323649C27D43CB /* Extraction-prefix.pch */,
+				8C18E05E075BD2076F02951645C68B28 /* Extraction-umbrella.h */,
+				2C42B635F0F093B7273BC15E22EC2AE0 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/Extraction";
+			sourceTree = "<group>";
+		};
 		91CB39536EE7D3547C3C2A0CBDCD4864 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -1101,6 +1148,14 @@
 				22DE6D50253382B896CFAB866AA425A6 /* UIView+BooleanAnimations */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		98CD5E1F2DE017210F5DED0A57542C83 /* ARSpinner */ = {
+			isa = PBXGroup;
+			children = (
+				C7F2197C4397CA6458A6409ACC2CF11C /* Extraction */,
+			);
+			name = ARSpinner;
 			sourceTree = "<group>";
 		};
 		A9A8ADF990D91290E0DB941A1E11A0A2 /* Artsy+UIColors */ = {
@@ -1128,20 +1183,20 @@
 			name = Resources;
 			sourceTree = "<group>";
 		};
+		B0468A4A616DCE1891BE133D58488333 /* Extraction */ = {
+			isa = PBXGroup;
+			children = (
+				08A4C7680C9383B420B7689F59E5CE33 /* Classes */,
+			);
+			path = Extraction;
+			sourceTree = "<group>";
+		};
 		B422D83D600C8723823173C9A3124713 /* SwiftSupport */ = {
 			isa = PBXGroup;
 			children = (
 				56088CBA2C898E73F6052AF703D37522 /* SwiftSupport.swift */,
 			);
 			name = SwiftSupport;
-			sourceTree = "<group>";
-		};
-		C0C1BDB73E80BAC6DBD6627E1BBB93C9 /* Extraction */ = {
-			isa = PBXGroup;
-			children = (
-				569DE388694F8A37884A5DEB13E54B87 /* Classes */,
-			);
-			path = Extraction;
 			sourceTree = "<group>";
 		};
 		C0EDF453FA3E9D6CB44C44D646C9C7BF /* Frameworks */ = {
@@ -1157,6 +1212,14 @@
 				549F7725D795E1DA82F263E5A8E991B2 /* iOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C7F2197C4397CA6458A6409ACC2CF11C /* Extraction */ = {
+			isa = PBXGroup;
+			children = (
+				13A07AC506999E69D7FB711D89783E90 /* Classes */,
+			);
+			path = Extraction;
 			sourceTree = "<group>";
 		};
 		CA45675809CEB29E2B2A6C67718148B1 /* Support Files */ = {
@@ -1191,12 +1254,13 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		E60A1CD37CBC2307651D270C51DF896F /* ARSpinner */ = {
+		DDE207A38C424A0A8C73DC189A8707CF /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				540A1C25FC5377ACE41040F60C24637B /* Extraction */,
+				F21FF4B3A0C4F0290BF561B39D83FA09 /* ARSwitchView.h */,
+				291359858B319CAAA7594C0AE1AFEDFC /* ARSwitchView.m */,
 			);
-			name = ARSpinner;
+			path = Classes;
 			sourceTree = "<group>";
 		};
 		EC1B93D148FCE5A420F3B3630FFE14A2 /* Support Files */ = {
@@ -1213,51 +1277,17 @@
 			path = "../Target Support Files/Expecta";
 			sourceTree = "<group>";
 		};
-		ECDD211980CE3793DF64DBFA62B85292 /* Classes */ = {
+		F0B03FA0B867BD21BC216DDB65B57964 /* Extraction */ = {
 			isa = PBXGroup;
 			children = (
-				51EAC2D10FB9C5A7CF7C0FBBF66C7489 /* ARSpinner.h */,
-				1AA15C559F6EF7B0323DCB80C097CB11 /* ARSpinner.m */,
+				6966CC82271C1596258D5A99950FBC09 /* ARAnimationContinuation */,
+				98CD5E1F2DE017210F5DED0A57542C83 /* ARSpinner */,
+				17B535C0BD13D0EA2A022DF8A1331E95 /* ARSwitchView */,
+				90E98D8FBCB7D8EDC80A86605DEB1AF7 /* Support Files */,
+				0C2E9A334EFAA34C1FA7A5FE15E9301D /* UIView+ARSpinner */,
 			);
-			path = Classes;
-			sourceTree = "<group>";
-		};
-		EE0D44D5F7EA3938B0833680FD0830B7 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				4853721194752017F7E74D018AA4FA2F /* Extraction */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		EFC8DC683DEF9004FCA032BCC33672F5 /* UIView+ARSpinner */ = {
-			isa = PBXGroup;
-			children = (
-				F6E4AFAE16CFC43D9824DE8CE7E5CBE1 /* Extraction */,
-			);
-			name = "UIView+ARSpinner";
-			sourceTree = "<group>";
-		};
-		F6E4AFAE16CFC43D9824DE8CE7E5CBE1 /* Extraction */ = {
-			isa = PBXGroup;
-			children = (
-				008D3A9F5FC3BBFAE7051F73BC271130 /* Classes */,
-			);
-			path = Extraction;
-			sourceTree = "<group>";
-		};
-		FF3A2C9D8570315CCEDD70A4405B5D11 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				C20114D82BBA58D00B6DF3DFC3ACC766 /* Extraction.modulemap */,
-				1251E168C2B6627B4234E02EC3F56B90 /* Extraction.xcconfig */,
-				88678863A32B470E5D8FA9D57D07B662 /* Extraction-dummy.m */,
-				8E98A846B2C38190948C80BCD2A67DC3 /* Extraction-prefix.pch */,
-				85764629A47E03DD2A1D00F1102D42EF /* Extraction-umbrella.h */,
-				2FBBC424897C981B6C2327F770ABB49C /* Info.plist */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/Extraction";
+			name = Extraction;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -1286,28 +1316,28 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6AAF9B2BBD0EAD3243A08DCB08C36CF2 /* Headers */ = {
+		0F87FBFCE65464AA5B34D2527E93F9D9 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F93ED075C92F7458AB23EBB5AABAFFF7 /* FLKAutoLayout-umbrella.h in Headers */,
-				965BCECEDBAC0D236CA7F5E5E979F677 /* FLKAutoLayout.h in Headers */,
-				6D98B0A2BF11C1AEC5B390B84AE3A002 /* FLKAutoLayoutPredicateList.h in Headers */,
-				80627A14FB508C78FDD005FEAD00F9C1 /* NSLayoutConstraint+FLKAutoLayoutDebug.h in Headers */,
-				D6FC67122F964011EF2ADA62F5552D2B /* NSObject+FLKAutoLayoutDebug.h in Headers */,
-				69C7EE6BCB9A014C950BE29ED7206C51 /* UIView+FLKAutoLayout.h in Headers */,
-				E7AAE1D5607D1F6F1730249A53FF0687 /* UIView+FLKAutoLayoutDebug.h in Headers */,
-				A72F843C3909DED6697E8C0C2B337B69 /* UIView+FLKAutoLayoutPredicate.h in Headers */,
-				C5D569603512E6ECF70A14B904EE38A2 /* UIViewController+FLKAutoLayout.h in Headers */,
+				3E1C6B08798653442D6B82F3EA61BBFB /* FLKAutoLayout-umbrella.h in Headers */,
+				78C296630B71781C98B071B086F1BEA4 /* FLKAutoLayout.h in Headers */,
+				7863BE63CAF191DED89BC9DBB7C5439A /* FLKAutoLayoutPredicateList.h in Headers */,
+				328F5AA633BF0C9E519E2EAC6ED0774A /* NSLayoutConstraint+FLKAutoLayoutDebug.h in Headers */,
+				F98C7053C60FBBE6FD51D25655E4C56E /* NSObject+FLKAutoLayoutDebug.h in Headers */,
+				E6A9FEA358E379DA90712D390D9AE712 /* UIView+FLKAutoLayout.h in Headers */,
+				EED291485018A8BA6EC265974C1D1E9D /* UIView+FLKAutoLayoutDebug.h in Headers */,
+				D3C29B6350E19F1D5DA4B98B6C23451E /* UIView+FLKAutoLayoutPredicate.h in Headers */,
+				9AD7AA93EE37D1E786F667F83F703119 /* UIViewController+FLKAutoLayout.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6F4A2C07D36A352A506A9F187FB3B46E /* Headers */ = {
+		331BF603348A8A1F942AAE34909B8922 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9BC5C3D116C52338FE5EF8D1B3EAD83F /* UIView+BooleanAnimations-umbrella.h in Headers */,
-				EEEBD35C4B3BAA93911DD3EA150765EC /* UIView+BooleanAnimations.h in Headers */,
+				AA1A2D1E50B971ED11A154372D07949B /* UIView+BooleanAnimations-umbrella.h in Headers */,
+				1BFC34386958E1CC7F13C636865C45FD /* UIView+BooleanAnimations.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1418,14 +1448,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F4B7A737F0A2852403A5A5D5D4E68F85 /* Headers */ = {
+		FA39100D0C5EA94899F668775414F9E3 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0B2F16496D32C1FCA2144D7145CAAC4B /* ARSpinner.h in Headers */,
-				0C875AAF42E3F0C5A77A006B57E465EE /* ARSwitchView.h in Headers */,
-				90A4E51247673C2E2777F4548F733E5C /* Extraction-umbrella.h in Headers */,
-				010C8B53A45FFF501546B26FFCF85727 /* UIView+ARSpinner.h in Headers */,
+				B3EA946419DDA39D647880821A0D1699 /* ARAnimationContinuation.h in Headers */,
+				E02A967E573ED43E38AAB0005F163E89 /* ARSpinner.h in Headers */,
+				3CF54BF4F70B49CFBF5BF716A04BA53D /* ARSwitchView.h in Headers */,
+				021E5301BE157EB24F59717458D6087C /* Extraction-umbrella.h in Headers */,
+				7715F37F21C7AE8088B3BD8EF39648D6 /* UIView+ARSpinner.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1488,21 +1519,21 @@
 			productReference = F8796D17CF3327C1FF8A382C74FDB480 /* Pods_Extraction_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		4318364745738A04D379C779511364F8 /* FLKAutoLayout */ = {
+		3E4767A6AF9C602200BC49F3376F0547 /* UIView+BooleanAnimations */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8B08D05CBC44FFBF2003C76ADBE559F0 /* Build configuration list for PBXNativeTarget "FLKAutoLayout" */;
+			buildConfigurationList = E812816058A0E2BB7AE7B9A4E8ED8D4D /* Build configuration list for PBXNativeTarget "UIView+BooleanAnimations" */;
 			buildPhases = (
-				8C4AF7954704E0357B9E9C6CD9BB33F4 /* Sources */,
-				DCDB3E27DC15DD91E08B94CC6E2DE242 /* Frameworks */,
-				6AAF9B2BBD0EAD3243A08DCB08C36CF2 /* Headers */,
+				D38897AABCA52CF85891736FFBF734BF /* Sources */,
+				57F90957CEF4FAAAEFF9B8566A033301 /* Frameworks */,
+				331BF603348A8A1F942AAE34909B8922 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = FLKAutoLayout;
-			productName = FLKAutoLayout;
-			productReference = C59FE1EE9ABF68A004B1E9E35E72988F /* FLKAutoLayout.framework */;
+			name = "UIView+BooleanAnimations";
+			productName = "UIView+BooleanAnimations";
+			productReference = D3CC58D7BC33E0DB20608054B7F8E35E /* UIView_BooleanAnimations.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		503ACDAAAA3329AEDEFB21944819EBCB /* Pods-Extraction_Tests */ = {
@@ -1526,21 +1557,21 @@
 			productReference = D37161A2266559F46EC16CC15571F320 /* Pods_Extraction_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		6507167916BEC5E72AB8CE33F5799F26 /* UIView+BooleanAnimations */ = {
+		71356BBC87B038A5BC137ECF5BB3E122 /* FLKAutoLayout */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3D2DF3E5F56CB57C4B629F2CE39C5D9D /* Build configuration list for PBXNativeTarget "UIView+BooleanAnimations" */;
+			buildConfigurationList = 21D7BB38EDA82CF30EE2C2E93A3208DD /* Build configuration list for PBXNativeTarget "FLKAutoLayout" */;
 			buildPhases = (
-				6CF62679B46120A2D6AFB6914ABDAAB4 /* Sources */,
-				4C906FFCB7C51C9ACE81C4D3C9A62742 /* Frameworks */,
-				6F4A2C07D36A352A506A9F187FB3B46E /* Headers */,
+				BF6FA165C47357C8D5C9D0FF4B47C990 /* Sources */,
+				E2EE22EB71BBD336BC1D9F0366A342A7 /* Frameworks */,
+				0F87FBFCE65464AA5B34D2527E93F9D9 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "UIView+BooleanAnimations";
-			productName = "UIView+BooleanAnimations";
-			productReference = D3CC58D7BC33E0DB20608054B7F8E35E /* UIView_BooleanAnimations.framework */;
+			name = FLKAutoLayout;
+			productName = FLKAutoLayout;
+			productReference = C59FE1EE9ABF68A004B1E9E35E72988F /* FLKAutoLayout.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		87312DE5EE228BC5742AA21B44ECF379 /* Expecta+Snapshots */ = {
@@ -1580,27 +1611,6 @@
 			productReference = C0F93951B0D8B97201037749960E8A72 /* Specta.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		A2A3C0473204CC437A1BD17496670355 /* Extraction */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = AE138DE1CCF3224EFF87370B908ACBC7 /* Build configuration list for PBXNativeTarget "Extraction" */;
-			buildPhases = (
-				045D4BCB37F727A79D2BCF28769C65BD /* Sources */,
-				4A754428635404120E2039DA1DA032C9 /* Frameworks */,
-				F4B7A737F0A2852403A5A5D5D4E68F85 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				EF9191A6437105669254FD78A0CE65E3 /* PBXTargetDependency */,
-				C65C181750AEA9FBBBF6FC7E40037BCE /* PBXTargetDependency */,
-				2F394C17B4B689F713E0FEA8C21FE1CD /* PBXTargetDependency */,
-				1D32F7E89B4991ABA367EA6DE9B1E754 /* PBXTargetDependency */,
-			);
-			name = Extraction;
-			productName = Extraction;
-			productReference = 1CA791BF0261D5899869ED6EC7A5C4E7 /* Extraction.framework */;
-			productType = "com.apple.product-type.framework";
-		};
 		A40655E07FB9082B05F7B87376B8656B /* Artsy+UIFonts */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0850C58F5559E7A596EEAEBBDEB531D4 /* Build configuration list for PBXNativeTarget "Artsy+UIFonts" */;
@@ -1636,6 +1646,27 @@
 			productReference = 2A4F1C36EA88FE42C88F803DFA2F9CDC /* FBSnapshotTestCase.framework */;
 			productType = "com.apple.product-type.framework";
 		};
+		CB36A4E427D7D1D5D493061CD8898E9A /* Extraction */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7ACE7120D0C612254C2BAD98526D1690 /* Build configuration list for PBXNativeTarget "Extraction" */;
+			buildPhases = (
+				DC266B406805FE0D1B9899E114CD0847 /* Sources */,
+				5B975C62587EC43744C36BB4C046BEA5 /* Frameworks */,
+				FA39100D0C5EA94899F668775414F9E3 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E3C88954E7A46A700ACAABDD0A2E16AC /* PBXTargetDependency */,
+				7F9E4AF4ED0C46A9F5A3F2A38A4FB6C8 /* PBXTargetDependency */,
+				A3F85A77C964D99EF1A5692D3D1500E0 /* PBXTargetDependency */,
+				8733BC81E7F7D7475655CED2C3FEC707 /* PBXTargetDependency */,
+			);
+			name = Extraction;
+			productName = Extraction;
+			productReference = 1CA791BF0261D5899869ED6EC7A5C4E7 /* Extraction.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -1661,13 +1692,13 @@
 				A40655E07FB9082B05F7B87376B8656B /* Artsy+UIFonts */,
 				0D888F29E05E498D0CD91A51D28599A5 /* Expecta */,
 				87312DE5EE228BC5742AA21B44ECF379 /* Expecta+Snapshots */,
-				A2A3C0473204CC437A1BD17496670355 /* Extraction */,
+				CB36A4E427D7D1D5D493061CD8898E9A /* Extraction */,
 				AB055CDABAD5D9BD7C72D6FC05881DEF /* FBSnapshotTestCase */,
-				4318364745738A04D379C779511364F8 /* FLKAutoLayout */,
+				71356BBC87B038A5BC137ECF5BB3E122 /* FLKAutoLayout */,
 				2BE7CE6243FEF1BBC2CDD776AC1B0AC6 /* Pods-Extraction_Example */,
 				503ACDAAAA3329AEDEFB21944819EBCB /* Pods-Extraction_Tests */,
 				9FDDE8D5ECE7024BE544CD9C2B8820C0 /* Specta */,
-				6507167916BEC5E72AB8CE33F5799F26 /* UIView+BooleanAnimations */,
+				3E4767A6AF9C602200BC49F3376F0547 /* UIView+BooleanAnimations */,
 			);
 		};
 /* End PBXProject section */
@@ -1689,17 +1720,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		045D4BCB37F727A79D2BCF28769C65BD /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				90CEE7F4A484CDBF806219DBD0C95E7D /* ARSpinner.m in Sources */,
-				82DCF41F2A0A4C39B933995601FDB45F /* ARSwitchView.m in Sources */,
-				DE13700D15CA792DCE84B0A026356BFF /* Extraction-dummy.m in Sources */,
-				81DAC714F36F255A1096E74E5B0D0010 /* UIView+ARSpinner.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		1F71E81C05D9C0A146AAAD7E7332DAC9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1744,36 +1764,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6CF62679B46120A2D6AFB6914ABDAAB4 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				884FF3324585FBA89E25B46D302D49CD /* UIView+BooleanAnimations-dummy.m in Sources */,
-				3F1A58A6E470D33DF98A56C192C1127A /* UIView+BooleanAnimations.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		87A09C784F4A7B6D3BCCE2C3FE3A0EF0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				DE937C82457A96691A1CEB6E3707B9ED /* Artsy+UIFonts-dummy.m in Sources */,
 				71F7FEC212E2645DD8952B675DC47F17 /* UIFont+ArtsyFonts.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		8C4AF7954704E0357B9E9C6CD9BB33F4 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				830610DF65848490845F3A5653571B0E /* FLKAutoLayout-dummy.m in Sources */,
-				C8D6C7AD91970584E1A951D05A84126A /* FLKAutoLayoutPredicateList.m in Sources */,
-				B62A652D785088A2F0D5439560F0206A /* NSLayoutConstraint+FLKAutoLayoutDebug.m in Sources */,
-				3252AE79594EDAE4AF98B0C5CAAED1CF /* NSObject+FLKAutoLayoutDebug.m in Sources */,
-				05BD8F46812EDA9437B658B4FCDB2241 /* UIView+FLKAutoLayout.m in Sources */,
-				5DA5C9FC0551537B223CC8D6ABC87B0F /* UIView+FLKAutoLayoutDebug.m in Sources */,
-				F910778DECDB9283938FCE61D1B4CFA8 /* UIView+FLKAutoLayoutPredicate.m in Sources */,
-				EFA01318600D93A14D153BB96C82C8FA /* UIViewController+FLKAutoLayout.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1837,11 +1833,47 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		BF6FA165C47357C8D5C9D0FF4B47C990 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D6B09FD6EA9A729DFAAB2D6BCD71806 /* FLKAutoLayout-dummy.m in Sources */,
+				B6D607A6A9B90190CF959477F19EBEA0 /* FLKAutoLayoutPredicateList.m in Sources */,
+				60F9E3F3C30C3A83C8D96717BC95682C /* NSLayoutConstraint+FLKAutoLayoutDebug.m in Sources */,
+				4770CAC538980AF0BCA9D7527690E296 /* NSObject+FLKAutoLayoutDebug.m in Sources */,
+				AFA36FDCD8B23D38D70F5776F30B97ED /* UIView+FLKAutoLayout.m in Sources */,
+				69ADD0BCD9776DF384847E72B7CFA307 /* UIView+FLKAutoLayoutDebug.m in Sources */,
+				F9A649E581178A873926579A11C659C3 /* UIView+FLKAutoLayoutPredicate.m in Sources */,
+				E10F478B7AF515C3AAF8BE487244E257 /* UIViewController+FLKAutoLayout.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		CC8A8ADA147A5F4F6FE6DCAF65741303 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				C1CC79ABD1C261812A69EE065228FE0D /* Pods-Extraction_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D38897AABCA52CF85891736FFBF734BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE18C5C1633A521C7E3D6464164FC8AD /* UIView+BooleanAnimations-dummy.m in Sources */,
+				87C3BEDA1C4BE0A5E29A4854EC062745 /* UIView+BooleanAnimations.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC266B406805FE0D1B9899E114CD0847 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E51316D254AC411533AC095A7ED303B6 /* ARAnimationContinuation.m in Sources */,
+				6BF633C1BADEB0010B728C5665EA45A3 /* ARSpinner.m in Sources */,
+				273F864CF253CF405B4DAA6B76284EA0 /* ARSwitchView.m in Sources */,
+				59CA553CD16D38FBAFF41F68D2B69B70 /* Extraction-dummy.m in Sources */,
+				8D301D7E276E3D1C91DDB354ED26EC6C /* UIView+ARSpinner.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1866,12 +1898,6 @@
 			target = A40655E07FB9082B05F7B87376B8656B /* Artsy+UIFonts */;
 			targetProxy = 75AC966771A8A3AC56D423DE0AAD9CC1 /* PBXContainerItemProxy */;
 		};
-		1D32F7E89B4991ABA367EA6DE9B1E754 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "UIView+BooleanAnimations";
-			target = 6507167916BEC5E72AB8CE33F5799F26 /* UIView+BooleanAnimations */;
-			targetProxy = 489BA2F922078F857E5FB9DF2F87E881 /* PBXContainerItemProxy */;
-		};
 		1D58AEBE1C0236D38A7275A533BD05AB /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Artsy+UIColors";
@@ -1884,23 +1910,35 @@
 			target = AB055CDABAD5D9BD7C72D6FC05881DEF /* FBSnapshotTestCase */;
 			targetProxy = 7EFAF0AD8F8B14D7EFEBD2C8C05A23CF /* PBXContainerItemProxy */;
 		};
-		2F394C17B4B689F713E0FEA8C21FE1CD /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = FLKAutoLayout;
-			target = 4318364745738A04D379C779511364F8 /* FLKAutoLayout */;
-			targetProxy = 4AD6AB6E00AF01E82C0200DA3488B549 /* PBXContainerItemProxy */;
-		};
 		3619400EC0DBEACC532752EF03AA0931 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Expecta+Snapshots";
 			target = 87312DE5EE228BC5742AA21B44ECF379 /* Expecta+Snapshots */;
 			targetProxy = 7A8E026BBCD129541D37F93F73B5FB0F /* PBXContainerItemProxy */;
 		};
+		7F9E4AF4ED0C46A9F5A3F2A38A4FB6C8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Artsy+UIFonts";
+			target = A40655E07FB9082B05F7B87376B8656B /* Artsy+UIFonts */;
+			targetProxy = 0CA83C70DDA0C2AB1251297A2C2E5610 /* PBXContainerItemProxy */;
+		};
+		8733BC81E7F7D7475655CED2C3FEC707 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "UIView+BooleanAnimations";
+			target = 3E4767A6AF9C602200BC49F3376F0547 /* UIView+BooleanAnimations */;
+			targetProxy = 389223BB59042604D606D893093EB403 /* PBXContainerItemProxy */;
+		};
 		A29DB3F2CEC448666F2B98A23135FD85 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = FLKAutoLayout;
-			target = 4318364745738A04D379C779511364F8 /* FLKAutoLayout */;
+			target = 71356BBC87B038A5BC137ECF5BB3E122 /* FLKAutoLayout */;
 			targetProxy = 68BB6420DB7DC7BFBA53C2E4D11DB1F0 /* PBXContainerItemProxy */;
+		};
+		A3F85A77C964D99EF1A5692D3D1500E0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FLKAutoLayout;
+			target = 71356BBC87B038A5BC137ECF5BB3E122 /* FLKAutoLayout */;
+			targetProxy = 24639A704C1EE7C4AE3687E497330697 /* PBXContainerItemProxy */;
 		};
 		A75C5B88015C044E63570883819830A3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -1914,29 +1952,23 @@
 			target = 9FDDE8D5ECE7024BE544CD9C2B8820C0 /* Specta */;
 			targetProxy = 0393819E6559B66D27EF7187F9486FAD /* PBXContainerItemProxy */;
 		};
-		C65C181750AEA9FBBBF6FC7E40037BCE /* PBXTargetDependency */ = {
+		E3C88954E7A46A700ACAABDD0A2E16AC /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = "Artsy+UIFonts";
-			target = A40655E07FB9082B05F7B87376B8656B /* Artsy+UIFonts */;
-			targetProxy = 64FD3810A5A36264D7D2F608354AD354 /* PBXContainerItemProxy */;
+			name = "Artsy+UIColors";
+			target = 005F3A0844BAFE222C1BA2D1B36022C1 /* Artsy+UIColors */;
+			targetProxy = 3897E64BE5267854FA31ED7E59B81DB0 /* PBXContainerItemProxy */;
 		};
 		E4AD4987011B16DCD82AE56DC61EF80E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "UIView+BooleanAnimations";
-			target = 6507167916BEC5E72AB8CE33F5799F26 /* UIView+BooleanAnimations */;
+			target = 3E4767A6AF9C602200BC49F3376F0547 /* UIView+BooleanAnimations */;
 			targetProxy = 3C754EE74EFE996BE210808FB5CD1FCC /* PBXContainerItemProxy */;
 		};
 		ED1DF29FA935FF42F892E298C0FE9378 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Extraction;
-			target = A2A3C0473204CC437A1BD17496670355 /* Extraction */;
+			target = CB36A4E427D7D1D5D493061CD8898E9A /* Extraction */;
 			targetProxy = 13A5E5E417A9E3CCC4A94EFC2A84E76B /* PBXContainerItemProxy */;
-		};
-		EF9191A6437105669254FD78A0CE65E3 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Artsy+UIColors";
-			target = 005F3A0844BAFE222C1BA2D1B36022C1 /* Artsy+UIColors */;
-			targetProxy = B9E288AFC59AF983BE19EA533A28D783 /* PBXContainerItemProxy */;
 		};
 		FAC72F157905EC10B9EB9742FCADC4AD /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -2043,7 +2075,7 @@
 			};
 			name = Release;
 		};
-		21C2E88E487526E30DF279628542D324 /* Release */ = {
+		2A998D5D8D99A2FBCF01E088F219C9DA /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 5ABD4FF90488B1732835B1AE7D82336D /* UIView+BooleanAnimations.xcconfig */;
 			buildSettings = {
@@ -2071,35 +2103,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
-		};
-		2A68C1849A85E15BFA3AE274D3F470AF /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5ABD4FF90488B1732835B1AE7D82336D /* UIView+BooleanAnimations.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/UIView+BooleanAnimations/UIView+BooleanAnimations-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/UIView+BooleanAnimations/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/UIView+BooleanAnimations/UIView+BooleanAnimations.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = UIView_BooleanAnimations;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
 		};
 		38B66EDE67ADBB79CC5FF9EC160BF4BF /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -2134,6 +2137,35 @@
 			};
 			name = Release;
 		};
+		3945DA3EA0B58276696EB2B2497D12D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 710CFF47B8D9AA0795547462EDEDE047 /* FLKAutoLayout.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/FLKAutoLayout/FLKAutoLayout-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FLKAutoLayout/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FLKAutoLayout/FLKAutoLayout.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = FLKAutoLayout;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		3DCC03D6F10D67FE60FC8F1518AB7024 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 48552E788411D5C58D15AE02D8B2F5E3 /* Artsy+UIColors.xcconfig */;
@@ -2155,6 +2187,35 @@
 				MODULEMAP_FILE = "Target Support Files/Artsy+UIColors/Artsy+UIColors.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
 				PRODUCT_NAME = Artsy_UIColors;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		47D26937D3EB626E41B6D8D6313A9527 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BEE12058B533D634F0105589A7375CB9 /* Extraction.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Extraction/Extraction-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Extraction/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Extraction/Extraction.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Extraction;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -2195,6 +2256,35 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
+		};
+		551829AD852B42229E1120A985145599 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 710CFF47B8D9AA0795547462EDEDE047 /* FLKAutoLayout.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/FLKAutoLayout/FLKAutoLayout-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FLKAutoLayout/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FLKAutoLayout/FLKAutoLayout.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = FLKAutoLayout;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
 		};
 		5C199A70C50597D686C0D9DEE13040AA /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -2429,35 +2519,6 @@
 			};
 			name = Release;
 		};
-		CF820A82A426D9C7CFE607784B290BD6 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1251E168C2B6627B4234E02EC3F56B90 /* Extraction.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Extraction/Extraction-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Extraction/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Extraction/Extraction.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = Extraction;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		D3E3D092A3FF7311A98E44BBA36FFD12 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -2500,64 +2561,6 @@
 			};
 			name = Debug;
 		};
-		D7DFD2D8BA05E7EEF7545DAF131EABBF /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1251E168C2B6627B4234E02EC3F56B90 /* Extraction.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Extraction/Extraction-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Extraction/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Extraction/Extraction.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = Extraction;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		DA906C948474964660801E66F3DE8CBA /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 710CFF47B8D9AA0795547462EDEDE047 /* FLKAutoLayout.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/FLKAutoLayout/FLKAutoLayout-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/FLKAutoLayout/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/FLKAutoLayout/FLKAutoLayout.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = FLKAutoLayout;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		E14A4E6AF9A6FC74C07865D14A03514D /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 494042245FA9AFB4E11AFC40A4CFD99A /* Pods-Extraction_Tests.release.xcconfig */;
@@ -2590,6 +2593,35 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
+		};
+		E16FBB846300604414460F3DBC170293 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5ABD4FF90488B1732835B1AE7D82336D /* UIView+BooleanAnimations.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/UIView+BooleanAnimations/UIView+BooleanAnimations-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/UIView+BooleanAnimations/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/UIView+BooleanAnimations/UIView+BooleanAnimations.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = UIView_BooleanAnimations;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
 		};
 		EC2DAC498D67ACAE570EBF0A7C39625E /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -2625,34 +2657,34 @@
 			};
 			name = Debug;
 		};
-		F0BEB59C8F456B1F2F93E0EB650BEFE8 /* Debug */ = {
+		ED9EE09DC38A15DD55882ACA16ECC253 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 710CFF47B8D9AA0795547462EDEDE047 /* FLKAutoLayout.xcconfig */;
+			baseConfigurationReference = BEE12058B533D634F0105589A7375CB9 /* Extraction.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/FLKAutoLayout/FLKAutoLayout-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/FLKAutoLayout/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/Extraction/Extraction-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Extraction/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/FLKAutoLayout/FLKAutoLayout.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = FLKAutoLayout;
+				MODULEMAP_FILE = "Target Support Files/Extraction/Extraction.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Extraction;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
 		F24F328AA1CFC9A061F629C917D03F44 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -2704,20 +2736,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		21D7BB38EDA82CF30EE2C2E93A3208DD /* Build configuration list for PBXNativeTarget "FLKAutoLayout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3945DA3EA0B58276696EB2B2497D12D7 /* Debug */,
+				551829AD852B42229E1120A985145599 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D3E3D092A3FF7311A98E44BBA36FFD12 /* Debug */,
 				0ACDCBCB0B6796575F46FFA2F5410C6B /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		3D2DF3E5F56CB57C4B629F2CE39C5D9D /* Build configuration list for PBXNativeTarget "UIView+BooleanAnimations" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				2A68C1849A85E15BFA3AE274D3F470AF /* Debug */,
-				21C2E88E487526E30DF279628542D324 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -2758,20 +2790,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8B08D05CBC44FFBF2003C76ADBE559F0 /* Build configuration list for PBXNativeTarget "FLKAutoLayout" */ = {
+		7ACE7120D0C612254C2BAD98526D1690 /* Build configuration list for PBXNativeTarget "Extraction" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F0BEB59C8F456B1F2F93E0EB650BEFE8 /* Debug */,
-				DA906C948474964660801E66F3DE8CBA /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		AE138DE1CCF3224EFF87370B908ACBC7 /* Build configuration list for PBXNativeTarget "Extraction" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				D7DFD2D8BA05E7EEF7545DAF131EABBF /* Debug */,
-				CF820A82A426D9C7CFE607784B290BD6 /* Release */,
+				47D26937D3EB626E41B6D8D6313A9527 /* Debug */,
+				ED9EE09DC38A15DD55882ACA16ECC253 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -2790,6 +2813,15 @@
 			buildConfigurations = (
 				86B3AF85DF2958967D7E96849C2BE84C /* Debug */,
 				F24F328AA1CFC9A061F629C917D03F44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E812816058A0E2BB7AE7B9A4E8ED8D4D /* Build configuration list for PBXNativeTarget "UIView+BooleanAnimations" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E16FBB846300604414460F3DBC170293 /* Debug */,
+				2A998D5D8D99A2FBCF01E088F219C9DA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

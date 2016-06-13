@@ -7,9 +7,11 @@ PODS:
     - FBSnapshotTestCase/Core (~> 2.0)
     - Specta (~> 1.0)
   - Extraction (0.1.0):
+    - Extraction/ARAnimationContinuation (= 0.1.0)
     - Extraction/ARSpinner (= 0.1.0)
     - Extraction/ARSwitchView (= 0.1.0)
     - Extraction/UIView+ARSpinner (= 0.1.0)
+  - Extraction/ARAnimationContinuation (0.1.0)
   - Extraction/ARSpinner (0.1.0):
     - Extraction/UIView+ARSpinner
     - UIView+BooleanAnimations
@@ -18,7 +20,8 @@ PODS:
     - Artsy+UIFonts (>= 1.1.0)
     - FLKAutoLayout
     - UIView+BooleanAnimations
-  - Extraction/UIView+ARSpinner (0.1.0)
+  - Extraction/UIView+ARSpinner (0.1.0):
+    - Extraction/ARAnimationContinuation
   - FBSnapshotTestCase (2.1.1):
     - FBSnapshotTestCase/SwiftSupport (= 2.1.1)
   - FBSnapshotTestCase/Core (2.1.1)
@@ -63,7 +66,7 @@ SPEC CHECKSUMS:
   Artsy+UIFonts: 108bfe625c45008ebb15c4c62003882dd345c4b8
   Expecta: e1c022fcd33910b6be89c291d2775b3fe27a89fe
   Expecta+Snapshots: c343f410c7a6392f3e22e78f94c44b6c0749a516
-  Extraction: 30a669899836cbe9c31bbc0e86918cd7a2dab463
+  Extraction: 3a131f6ede6bf1ff3a38d6f7e5caadbaa53e3e5f
   FBSnapshotTestCase: ec0ed7378d617e4b787e6cf9899d22cb86010b94
   FLKAutoLayout: 106b14dbae09d32c6730190f4e78a959759ba4a4
   Specta: ac94d110b865115fe60ff2c6d7281053c6f8e8a2

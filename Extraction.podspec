@@ -26,5 +26,10 @@ Pod::Spec.new do |s|
 
   s.subspec 'UIView+ARSpinner' do |ss|
     ss.source_files = 'Extraction/Classes/UIView+ARSpinner.{h,m}'
+    ss.dependency 'Extraction/ARAnimationContinuation'
+  end
+
+  s.subspec 'ARAnimationContinuation' do |ss|
+    ss.source_files = 'Extraction/Classes/ARAnimationContinuation.{h,m}'
   end
 end
