@@ -36,4 +36,12 @@ Pod::Spec.new do |s|
   s.subspec 'UILabel+Typography' do |ss|
     ss.source_files = 'Extraction/Classes/UILabel+Typography.{h,m}'
   end
+
+  s.subspec 'ARLoadFailureView' do |ss|
+    ss.source_files = 'Extraction/Classes/ARLoadFailureView.{h,m}'
+    ss.resource = 'Extraction/Assets/ARLoadFailureRetryIcon@2x.png'
+    ss.dependency 'Extraction/UILabel+Typography'
+    ss.dependency 'ORStackView'
+    ss.dependency 'Artsy-UIButtons'
+  end
 end
