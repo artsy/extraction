@@ -2,11 +2,12 @@
 
 #import <Extraction/ARSwitchView.h>
 #import <Extraction/ARSpinner.h>
+#import <Extraction/ARLoadFailureView.h>
 
 #import <FLKAutoLayout/UIView+FLKAutoLayout.h>
 #import <FLKAutoLayout/UIViewController+FLKAutoLayout.h>
 
-@interface ARAppDelegate ()
+@interface ARAppDelegate () <ARLoadFailureViewDelegate>
 @property (nonatomic, strong, readwrite) UIStackView *stackView;
 @end
 
@@ -43,6 +44,10 @@
     ARSpinner *spinner = [ARSpinner new];
     [spinner startAnimating];
     [self addSection:@"ARSpinner" view:spinner];
+  
+    ARLoadFailureView *loadFailureView = [ARLoadFailureView new];
+    loadFailureView.delegate = self;
+    [self addSection:@"ARLoadFailureView" view:loadFailureView];
 
     // This view is just there to gobble up the rest of the space.
     [self.stackView addArrangedSubview:[UIView new]];
@@ -64,6 +69,14 @@
     border.backgroundColor = [UIColor lightGrayColor];
     [border constrainHeight:@"1"];
     [self.stackView addArrangedSubview:border];
+}
+
+#pragma mark - ARLoadFailureViewDelegate
+
+- (void)loadFailureViewDidRequestRetry:(ARLoadFailureView *)loadFailureView;
+{
+    NSLog(@"Retry Load.");
+    [loadFailureView retryFailed];
 }
 
 @end
