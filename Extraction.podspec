@@ -32,4 +32,8 @@ Pod::Spec.new do |s|
   s.subspec 'ARAnimationContinuation' do |ss|
     ss.source_files = 'Extraction/Classes/ARAnimationContinuation.{h,m}'
   end
+
+  s.subspec 'UILabel+Typography' do |ss|
+    ss.source_files = 'Extraction/Classes/UILabel+Typography.{h,m}'
+  end
 end
