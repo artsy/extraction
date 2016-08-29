@@ -1,6 +1,6 @@
 {
   "name": "Extraction",
-  "version": "0.1.0",
+  "version": "1.1.0",
   "summary": "UI components shared between Eigen and Emission.",
   "homepage": "https://github.com/artsy/extraction",
   "license": "MIT",
@@ -9,7 +9,7 @@
   },
   "source": {
     "git": "https://github.com/artsy/extraction.git",
-    "tag": "0.1.0"
+    "tag": "1.1.0"
   },
   "platforms": {
     "ios": "8.0"
@@ -58,6 +58,26 @@
     {
       "name": "ARAnimationContinuation",
       "source_files": "Extraction/Classes/ARAnimationContinuation.{h,m}"
+    },
+    {
+      "name": "UILabel+Typography",
+      "source_files": "Extraction/Classes/UILabel+Typography.{h,m}"
+    },
+    {
+      "name": "ARLoadFailureView",
+      "source_files": "Extraction/Classes/ARLoadFailureView.{h,m}",
+      "resources": "Extraction/Assets/ARLoadFailureRetryIcon@2x.png",
+      "dependencies": {
+        "Extraction/UILabel+Typography": [
+
+        ],
+        "ORStackView": [
+
+        ],
+        "Artsy-UIButtons": [
+
+        ]
+      }
     }
   ]
 }
