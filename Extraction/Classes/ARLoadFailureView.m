@@ -3,7 +3,7 @@
 #import "UILabel+Typography.h"
 
 #if __has_include(<Artsy+UIFonts/UIFont+ArtsyFonts.h>)
-#import <Artsy_UIButtons/ARButtonSubclasses.h>
+#import <Artsy-UIButtons/ARButtonSubclasses.h>
 #import <Artsy+UIColors/UIColor+ArtsyColors.h>
 #import <Artsy+UIFonts/UIFont+ArtsyFonts.h>
 #import <FLKAutoLayout/FLKAutoLayout.h>
@@ -88,25 +88,29 @@
 - (void)rotate;
 {
   self.retryButton.transform = CGAffineTransformIdentity;
+  __weak __typeof(self) weakSelf = self;
   [UIView animateKeyframesWithDuration:1.0
                                  delay:0.0
                                options:UIViewKeyframeAnimationOptionCalculationModePaced | UIViewAnimationOptionCurveLinear
                             animations:^{
                               [UIView addKeyframeWithRelativeStartTime:0.0 relativeDuration:0.0 animations:^{
-                                self.retryButton.transform = CGAffineTransformMakeRotation(M_PI * 2.0 / 3.0);
+                                weakSelf.retryButton.transform = CGAffineTransformMakeRotation(M_PI * 2.0 / 3.0);
                               }];
                               [UIView addKeyframeWithRelativeStartTime:0.0 relativeDuration:0.0 animations:^{
-                                self.retryButton.transform = CGAffineTransformMakeRotation(M_PI * 4.0 / 3.0);
+                                weakSelf.retryButton.transform = CGAffineTransformMakeRotation(M_PI * 4.0 / 3.0);
                               }];
                               [UIView addKeyframeWithRelativeStartTime:0.0 relativeDuration:0.0 animations:^{
-                                self.retryButton.transform = CGAffineTransformIdentity;
+                                weakSelf.retryButton.transform = CGAffineTransformIdentity;
                               }];
                             }
                             completion:^(BOOL _) {
-                              if (self.stopRotating) {
-                                self.stopRotating = NO;
-                              } else {
-                                [self rotate];
+                              __strong __typeof(weakSelf) strongSelf = weakSelf;
+                              if (strongSelf) {
+                                if (strongSelf.stopRotating) {
+                                  strongSelf.stopRotating = NO;
+                                } else {
+                                  [strongSelf rotate];
+                                }
                               }
                             }];
 }
