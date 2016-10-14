@@ -1,6 +1,6 @@
 {
   "name": "Extraction",
-  "version": "1.1.0",
+  "version": "1.2.1",
   "summary": "UI components shared between Eigen and Emission.",
   "homepage": "https://github.com/artsy/extraction",
   "license": "MIT",
@@ -9,7 +9,7 @@
   },
   "source": {
     "git": "https://github.com/artsy/extraction.git",
-    "tag": "1.1.0"
+    "tag": "1.2.1"
   },
   "platforms": {
     "ios": "8.0"
@@ -72,7 +72,7 @@
 
         ],
         "ORStackView": [
-
+          "< 3"
         ],
         "Artsy-UIButtons": [
 

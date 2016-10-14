@@ -10,28 +10,28 @@ PODS:
     - Expecta (~> 1.0)
     - FBSnapshotTestCase/Core (~> 2.0)
     - Specta (~> 1.0)
-  - Extraction (1.1.0):
-    - Extraction/ARAnimationContinuation (= 1.1.0)
-    - Extraction/ARLoadFailureView (= 1.1.0)
-    - Extraction/ARSpinner (= 1.1.0)
-    - Extraction/ARSwitchView (= 1.1.0)
-    - Extraction/UILabel+Typography (= 1.1.0)
-    - Extraction/UIView+ARSpinner (= 1.1.0)
-  - Extraction/ARAnimationContinuation (1.1.0)
-  - Extraction/ARLoadFailureView (1.1.0):
+  - Extraction (1.2.1):
+    - Extraction/ARAnimationContinuation (= 1.2.1)
+    - Extraction/ARLoadFailureView (= 1.2.1)
+    - Extraction/ARSpinner (= 1.2.1)
+    - Extraction/ARSwitchView (= 1.2.1)
+    - Extraction/UILabel+Typography (= 1.2.1)
+    - Extraction/UIView+ARSpinner (= 1.2.1)
+  - Extraction/ARAnimationContinuation (1.2.1)
+  - Extraction/ARLoadFailureView (1.2.1):
     - Artsy-UIButtons
     - Extraction/UILabel+Typography
-    - ORStackView
-  - Extraction/ARSpinner (1.1.0):
+    - ORStackView (< 3)
+  - Extraction/ARSpinner (1.2.1):
     - Extraction/UIView+ARSpinner
     - UIView+BooleanAnimations
-  - Extraction/ARSwitchView (1.1.0):
+  - Extraction/ARSwitchView (1.2.1):
     - Artsy+UIColors
     - Artsy+UIFonts (>= 1.1.0)
     - FLKAutoLayout
     - UIView+BooleanAnimations
-  - Extraction/UILabel+Typography (1.1.0)
-  - Extraction/UIView+ARSpinner (1.1.0):
+  - Extraction/UILabel+Typography (1.2.1)
+  - Extraction/UIView+ARSpinner (1.2.1):
     - Extraction/ARAnimationContinuation
   - FBSnapshotTestCase (2.1.1):
     - FBSnapshotTestCase/SwiftSupport (= 2.1.1)
@@ -57,7 +57,7 @@ EXTERNAL SOURCES:
   Artsy+UIFonts:
     :git: https://github.com/artsy/Artsy-UIFonts.git
   Extraction:
-    :path: ../
+    :path: "../"
   FBSnapshotTestCase:
     :git: https://github.com/facebook/ios-snapshot-test-case.git
   FLKAutoLayout:
@@ -80,7 +80,7 @@ SPEC CHECKSUMS:
   Artsy-UIButtons: 26e6d1e0d2174773e9cf7693985d27faddd61743
   Expecta: e1c022fcd33910b6be89c291d2775b3fe27a89fe
   Expecta+Snapshots: c343f410c7a6392f3e22e78f94c44b6c0749a516
-  Extraction: a433f014365005b19106a81cb1d18bb711384297
+  Extraction: e1b194982c2cdea996512a9c03a72a5410991282
   FBSnapshotTestCase: ec0ed7378d617e4b787e6cf9899d22cb86010b94
   FLKAutoLayout: 106b14dbae09d32c6730190f4e78a959759ba4a4
   ORStackView: b9507271cb41fb9e0b3eecc6414d831201e7cf7c
