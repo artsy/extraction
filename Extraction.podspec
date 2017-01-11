@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "Extraction"
-  s.version      = "1.2.1"
+  s.version      = "1.2.2"
   s.summary      = "UI components shared between Eigen and Emission."
   s.homepage     = "https://github.com/artsy/extraction"
   s.license      = "MIT"
@@ -12,7 +12,12 @@ Pod::Spec.new do |s|
 
   s.subspec 'ARSwitchView' do |ss|
     ss.source_files = 'Extraction/Classes/ARSwitchView.{h,m}'
-    ss.dependency 'Artsy+UIFonts', '>= 1.1.0'
+    if ENV['ARTSY_STAFF_MEMBER'] != nil || ENV['CI'] != nil
+      ss.dependency 'Artsy+UIFonts', '>= 1.1.0'
+    else
+      ss.dependency 'Artsy+OSSUIFonts'
+    end
+
     ss.dependency 'Artsy+UIColors'
     ss.dependency 'FLKAutoLayout'
     ss.dependency 'UIView+BooleanAnimations'
