@@ -1,37 +1,37 @@
 PODS:
-  - Artsy+UIColors (3.0.1)
-  - Artsy+UIFonts (1.1.0)
+  - "Artsy+UIColors (3.0.1)"
+  - "Artsy+UIFonts (3.2.0)"
   - Artsy-UIButtons (2.0.1):
-    - Artsy+UIColors (~> 3.0)
-    - Artsy+UIFonts
-    - UIView+BooleanAnimations
+    - "Artsy+UIColors (~> 3.0)"
+    - "Artsy+UIFonts"
+    - "UIView+BooleanAnimations"
   - Expecta (1.0.5)
-  - Expecta+Snapshots (3.0.0):
+  - "Expecta+Snapshots (3.0.0)":
     - Expecta (~> 1.0)
     - FBSnapshotTestCase/Core (~> 2.0)
     - Specta (~> 1.0)
-  - Extraction (1.2.1):
-    - Extraction/ARAnimationContinuation (= 1.2.1)
-    - Extraction/ARLoadFailureView (= 1.2.1)
-    - Extraction/ARSpinner (= 1.2.1)
-    - Extraction/ARSwitchView (= 1.2.1)
-    - Extraction/UILabel+Typography (= 1.2.1)
-    - Extraction/UIView+ARSpinner (= 1.2.1)
-  - Extraction/ARAnimationContinuation (1.2.1)
-  - Extraction/ARLoadFailureView (1.2.1):
+  - Extraction (1.2.3):
+    - Extraction/ARAnimationContinuation (= 1.2.3)
+    - Extraction/ARLoadFailureView (= 1.2.3)
+    - Extraction/ARSpinner (= 1.2.3)
+    - Extraction/ARSwitchView (= 1.2.3)
+    - "Extraction/UILabel+Typography (= 1.2.3)"
+    - "Extraction/UIView+ARSpinner (= 1.2.3)"
+  - Extraction/ARAnimationContinuation (1.2.3)
+  - Extraction/ARLoadFailureView (1.2.3):
     - Artsy-UIButtons
-    - Extraction/UILabel+Typography
+    - "Extraction/UILabel+Typography"
     - ORStackView (< 3)
-  - Extraction/ARSpinner (1.2.1):
-    - Extraction/UIView+ARSpinner
-    - UIView+BooleanAnimations
-  - Extraction/ARSwitchView (1.2.1):
-    - Artsy+UIColors
-    - Artsy+UIFonts (>= 1.1.0)
+  - Extraction/ARSpinner (1.2.3):
+    - "Extraction/UIView+ARSpinner"
+    - "UIView+BooleanAnimations"
+  - Extraction/ARSwitchView (1.2.3):
+    - "Artsy+UIColors"
+    - "Artsy+UIFonts (>= 1.1.0)"
     - FLKAutoLayout
-    - UIView+BooleanAnimations
-  - Extraction/UILabel+Typography (1.2.1)
-  - Extraction/UIView+ARSpinner (1.2.1):
+    - "UIView+BooleanAnimations"
+  - "Extraction/UILabel+Typography (1.2.3)"
+  - "Extraction/UIView+ARSpinner (1.2.3)":
     - Extraction/ARAnimationContinuation
   - FBSnapshotTestCase (2.1.1):
     - FBSnapshotTestCase/SwiftSupport (= 2.1.1)
@@ -42,20 +42,31 @@ PODS:
   - ORStackView (2.0.3):
     - FLKAutoLayout
   - Specta (1.0.5)
-  - UIView+BooleanAnimations (1.0.2)
+  - "UIView+BooleanAnimations (1.0.2)"
 
 DEPENDENCIES:
-  - Artsy+UIFonts (from `https://github.com/artsy/Artsy-UIFonts.git`)
+  - "Artsy+UIFonts (from `https://github.com/artsy/Artsy-OSSUIFonts.git`)"
   - Expecta
-  - Expecta+Snapshots
+  - "Expecta+Snapshots"
   - Extraction (from `../`)
   - FBSnapshotTestCase (from `https://github.com/facebook/ios-snapshot-test-case.git`)
   - FLKAutoLayout (from `https://github.com/floriankugler/FLKAutoLayout.git`)
   - Specta
 
+SPEC REPOS:
+  https://github.com/artsy/Specs.git:
+    - "Artsy+UIColors"
+    - Artsy-UIButtons
+  https://github.com/cocoapods/specs.git:
+    - Expecta
+    - "Expecta+Snapshots"
+    - ORStackView
+    - Specta
+    - "UIView+BooleanAnimations"
+
 EXTERNAL SOURCES:
-  Artsy+UIFonts:
-    :git: https://github.com/artsy/Artsy-UIFonts.git
+  "Artsy+UIFonts":
+    :git: https://github.com/artsy/Artsy-OSSUIFonts.git
   Extraction:
     :path: "../"
   FBSnapshotTestCase:
@@ -64,9 +75,9 @@ EXTERNAL SOURCES:
     :git: https://github.com/floriankugler/FLKAutoLayout.git
 
 CHECKOUT OPTIONS:
-  Artsy+UIFonts:
-    :commit: 6295cce382764bbca9f2b3e972f71eb2b4d32d57
-    :git: https://github.com/artsy/Artsy-UIFonts.git
+  "Artsy+UIFonts":
+    :commit: 1c61a95c0834323283694e2f48e697d5babc889d
+    :git: https://github.com/artsy/Artsy-OSSUIFonts.git
   FBSnapshotTestCase:
     :commit: 5a4ee79ed96dd0d2f3766ffd22ecb04ef73c2c82
     :git: https://github.com/facebook/ios-snapshot-test-case.git
@@ -75,18 +86,18 @@ CHECKOUT OPTIONS:
     :git: https://github.com/floriankugler/FLKAutoLayout.git
 
 SPEC CHECKSUMS:
-  Artsy+UIColors: 10a2d71e9ffe1015be43d4e084d13ff4337aab97
-  Artsy+UIFonts: 108bfe625c45008ebb15c4c62003882dd345c4b8
+  "Artsy+UIColors": 10a2d71e9ffe1015be43d4e084d13ff4337aab97
+  "Artsy+UIFonts": d9c9ad8f1060f27863df6623f933103c7816bbf7
   Artsy-UIButtons: 26e6d1e0d2174773e9cf7693985d27faddd61743
   Expecta: e1c022fcd33910b6be89c291d2775b3fe27a89fe
-  Expecta+Snapshots: c343f410c7a6392f3e22e78f94c44b6c0749a516
-  Extraction: e1b194982c2cdea996512a9c03a72a5410991282
+  "Expecta+Snapshots": c343f410c7a6392f3e22e78f94c44b6c0749a516
+  Extraction: 612cf0866f74d4c0dd616677ff24146efa200958
   FBSnapshotTestCase: ec0ed7378d617e4b787e6cf9899d22cb86010b94
   FLKAutoLayout: 106b14dbae09d32c6730190f4e78a959759ba4a4
   ORStackView: b9507271cb41fb9e0b3eecc6414d831201e7cf7c
   Specta: ac94d110b865115fe60ff2c6d7281053c6f8e8a2
-  UIView+BooleanAnimations: a760be9a066036e55f298b7b7350a6cb14cfcd97
+  "UIView+BooleanAnimations": a760be9a066036e55f298b7b7350a6cb14cfcd97
 
 PODFILE CHECKSUM: b0cbf9059d9a34ecddae280c7bf9f9865eeeedd5
 
-COCOAPODS: 1.0.1
+COCOAPODS: 1.5.3

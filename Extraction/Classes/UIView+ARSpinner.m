@@ -1,7 +1,7 @@
 #import "UIView+ARSpinner.h"
 #import "ARAnimationContinuation.h"
 
-static CGFloat RotationDuration = 0.9;
+static CGFloat RotationDuration = 0.45;
 static NSString * const AnimationKey = @"ARSpinner";
 
 @implementation UIView (ARSpinner)

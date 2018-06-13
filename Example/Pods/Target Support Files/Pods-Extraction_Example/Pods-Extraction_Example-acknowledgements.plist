@@ -34,6 +34,8 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
 </string>
+			<key>License</key>
+			<string>MIT</string>
 			<key>Title</key>
 			<string>Artsy+UIColors</string>
 			<key>Type</key>
@@ -61,6 +63,8 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
 </string>
+			<key>License</key>
+			<string>MIT</string>
 			<key>Title</key>
 			<string>Artsy-UIButtons</string>
 			<key>Type</key>
@@ -70,7 +74,7 @@ THE SOFTWARE.
 			<key>FooterText</key>
 			<string>The MIT License (MIT)
 
-Copyright (c) 2016 Artsy Inc. &lt;mobile@artsymail.com&gt;
+Copyright (c) 2016-2018 Artsy Inc. &lt;mobile@artsymail.com&gt;
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -90,6 +94,8 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
 </string>
+			<key>License</key>
+			<string>MIT</string>
 			<key>Title</key>
 			<string>Extraction</string>
 			<key>Type</key>
@@ -117,6 +123,8 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
 </string>
+			<key>License</key>
+			<string>MIT</string>
 			<key>Title</key>
 			<string>FLKAutoLayout</string>
 			<key>Type</key>
@@ -144,6 +152,8 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
 </string>
+			<key>License</key>
+			<string>MIT</string>
 			<key>Title</key>
 			<string>ORStackView</string>
 			<key>Type</key>
@@ -174,6 +184,8 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
 </string>
+			<key>License</key>
+			<string>MIT</string>
 			<key>Title</key>
 			<string>UIView+BooleanAnimations</string>
 			<key>Type</key>
