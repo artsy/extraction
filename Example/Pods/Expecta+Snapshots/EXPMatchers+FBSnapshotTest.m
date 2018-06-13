@@ -132,7 +132,7 @@ EXPMatcherImplementationBegin(haveValidSnapshot, (void)){
             actual = [actual view];
         }
 
-        return [EXPExpectFBSnapshotTest compareSnapshotOfViewOrLayer:actual snapshot:name testCase:[self testCase] record:NO referenceDirectory:referenceImageDir error:&error];
+        return [EXPExpectFBSnapshotTest compareSnapshotOfViewOrLayer:actual snapshot:name testCase:[self testCase] record:YES referenceDirectory:referenceImageDir error:&error];
     });
 
     failureMessageForTo(^NSString *{

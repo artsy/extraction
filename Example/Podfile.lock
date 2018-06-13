@@ -33,11 +33,7 @@ PODS:
   - "Extraction/UILabel+Typography (1.2.3)"
   - "Extraction/UIView+ARSpinner (1.2.3)":
     - Extraction/ARAnimationContinuation
-  - FBSnapshotTestCase (2.1.1):
-    - FBSnapshotTestCase/SwiftSupport (= 2.1.1)
-  - FBSnapshotTestCase/Core (2.1.1)
-  - FBSnapshotTestCase/SwiftSupport (2.1.1):
-    - FBSnapshotTestCase/Core
+  - FBSnapshotTestCase/Core (2.1.4)
   - FLKAutoLayout (1.0.0)
   - ORStackView (2.0.3):
     - FLKAutoLayout
@@ -49,7 +45,7 @@ DEPENDENCIES:
   - Expecta
   - "Expecta+Snapshots"
   - Extraction (from `../`)
-  - FBSnapshotTestCase (from `https://github.com/facebook/ios-snapshot-test-case.git`)
+  - FBSnapshotTestCase/Core
   - FLKAutoLayout (from `https://github.com/floriankugler/FLKAutoLayout.git`)
   - Specta
 
@@ -60,6 +56,7 @@ SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - Expecta
     - "Expecta+Snapshots"
+    - FBSnapshotTestCase
     - ORStackView
     - Specta
     - "UIView+BooleanAnimations"
@@ -69,8 +66,6 @@ EXTERNAL SOURCES:
     :git: https://github.com/artsy/Artsy-OSSUIFonts.git
   Extraction:
     :path: "../"
-  FBSnapshotTestCase:
-    :git: https://github.com/facebook/ios-snapshot-test-case.git
   FLKAutoLayout:
     :git: https://github.com/floriankugler/FLKAutoLayout.git
 
@@ -78,9 +73,6 @@ CHECKOUT OPTIONS:
   "Artsy+UIFonts":
     :commit: 1c61a95c0834323283694e2f48e697d5babc889d
     :git: https://github.com/artsy/Artsy-OSSUIFonts.git
-  FBSnapshotTestCase:
-    :commit: 5a4ee79ed96dd0d2f3766ffd22ecb04ef73c2c82
-    :git: https://github.com/facebook/ios-snapshot-test-case.git
   FLKAutoLayout:
     :commit: 8cb911654b3538c0ce514701db041d32964ea17c
     :git: https://github.com/floriankugler/FLKAutoLayout.git
@@ -92,12 +84,12 @@ SPEC CHECKSUMS:
   Expecta: e1c022fcd33910b6be89c291d2775b3fe27a89fe
   "Expecta+Snapshots": c343f410c7a6392f3e22e78f94c44b6c0749a516
   Extraction: 612cf0866f74d4c0dd616677ff24146efa200958
-  FBSnapshotTestCase: ec0ed7378d617e4b787e6cf9899d22cb86010b94
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
   FLKAutoLayout: 106b14dbae09d32c6730190f4e78a959759ba4a4
   ORStackView: b9507271cb41fb9e0b3eecc6414d831201e7cf7c
   Specta: ac94d110b865115fe60ff2c6d7281053c6f8e8a2
   "UIView+BooleanAnimations": a760be9a066036e55f298b7b7350a6cb14cfcd97
 
-PODFILE CHECKSUM: b0cbf9059d9a34ecddae280c7bf9f9865eeeedd5
+PODFILE CHECKSUM: cec1387e509b20d8396b3561ba1514fecb1f18a9
 
 COCOAPODS: 1.5.3
