@@ -8,14 +8,14 @@ static NSString * const AnimationKey = @"ARSpinner";
 
 - (void)ar_startSpinningIndefinitely
 {
-    [self ar_startSpinning:LONG_MAX removedOnCompletion:false];
+    [self ar_startSpinning:LONG_MAX removedOnCompletion:NO];
 }
 
 - (void)ar_startSpinning:(NSInteger)times
      removedOnCompletion:(BOOL)removedOnCompletion
 {
     CATransform3D rotationTransform = CATransform3DMakeRotation(-1.01f * M_PI, 0, 0, 1.0);
-    
+
     CABasicAnimation *rotationAnimation = [CABasicAnimation animationWithKeyPath:@"transform"];
     rotationAnimation.toValue = [NSValue valueWithCATransform3D:rotationTransform];
     rotationAnimation.duration = RotationDuration;
@@ -37,4 +37,3 @@ static NSString * const AnimationKey = @"ARSpinner";
 }
 
 @end
-
