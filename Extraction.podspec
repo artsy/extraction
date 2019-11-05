@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "Extraction"
-  s.version      = "1.2.3"
+  s.version      = "1.2.5"
   s.summary      = "UI components shared between Eigen and Emission."
   s.homepage     = "https://github.com/artsy/extraction"
   s.license      = "MIT"
