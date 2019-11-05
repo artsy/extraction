@@ -295,7 +295,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-Extraction_Example/Pods-Extraction_Example-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-Extraction_Example/Pods-Extraction_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Artsy+UIColors/Artsy_UIColors.framework",
 				"${BUILT_PRODUCTS_DIR}/Artsy+UIFonts/Artsy_UIFonts.framework",
 				"${BUILT_PRODUCTS_DIR}/Artsy-UIButtons/Artsy_UIButtons.framework",
@@ -316,7 +316,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Extraction_Example/Pods-Extraction_Example-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Extraction_Example/Pods-Extraction_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		7FCDE6C9C753468A9842575C /* [CP] Embed Pods Frameworks */ = {
@@ -325,7 +325,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-Extraction_Tests/Pods-Extraction_Tests-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-Extraction_Tests/Pods-Extraction_Tests-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Expecta/Expecta.framework",
 				"${BUILT_PRODUCTS_DIR}/Expecta+Snapshots/Expecta_Snapshots.framework",
 				"${BUILT_PRODUCTS_DIR}/FBSnapshotTestCase/FBSnapshotTestCase.framework",
@@ -340,7 +340,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Extraction_Tests/Pods-Extraction_Tests-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Extraction_Tests/Pods-Extraction_Tests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		9A1CFB9C8C68C145A9E80C7E /* [CP] Check Pods Manifest.lock */ = {
