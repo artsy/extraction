@@ -9,7 +9,7 @@
 
 @interface ARSpinner ()
 @property (nonatomic, strong) UIView *spinnerView;
-@property (nonatomic, assign) NSInteger deferredAnimationCount;
+@property (nonatomic, assign) BOOL deferredAnimation;
 @end
 
 
@@ -59,7 +59,7 @@
 {
     self.alpha = 0;
     [self startAnimating];
-    
+
     [UIView animateIf:animated duration:0.3:^{
         self.alpha = 1;
     } completion:completion];
@@ -69,7 +69,7 @@
 {
     self.alpha = 1;
     [self stopAnimating];
-    
+
     [UIView animateIf:animated duration:0.3:^{
         self.alpha = 0;
     } completion:completion];
@@ -86,17 +86,18 @@
 - (void)didMoveToSuperview
 {
     [super didMoveToSuperview];
-    if (self.superview && self.deferredAnimationCount) {
-        [self ar_startSpinning:self.deferredAnimationCount];
+    if (self.superview && self.deferredAnimation) {
+        self.deferredAnimation = NO;
+        [self ar_startSpinning];
     }
 }
 
-- (void)animate:(NSInteger)times
+- (void)animate
 {
     if (self.superview) {
-        [self ar_startSpinning:times];
+        [self ar_startSpinning];
     } else {
-        self.deferredAnimationCount = times;
+        self.deferredAnimation = YES;
     }
 }
 
