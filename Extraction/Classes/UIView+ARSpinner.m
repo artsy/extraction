@@ -8,10 +8,11 @@ static NSString * const AnimationKey = @"ARSpinner";
 
 - (void)ar_startSpinningIndefinitely
 {
-    [self ar_startSpinning:LONG_MAX];
+    [self ar_startSpinning:LONG_MAX removedOnCompletion:false];
 }
 
 - (void)ar_startSpinning:(NSInteger)times
+     removedOnCompletion:(BOOL)removedOnCompletion
 {
     CATransform3D rotationTransform = CATransform3DMakeRotation(-1.01f * M_PI, 0, 0, 1.0);
     
@@ -20,6 +21,7 @@ static NSString * const AnimationKey = @"ARSpinner";
     rotationAnimation.duration = RotationDuration;
     rotationAnimation.cumulative = YES;
     rotationAnimation.repeatCount = times;
+    rotationAnimation.removedOnCompletion = removedOnCompletion;
 
     [self.layer addAnimation:rotationAnimation forKey:AnimationKey];
     [ARAnimationContinuation addToLayer:self.layer];
@@ -29,7 +31,7 @@ static NSString * const AnimationKey = @"ARSpinner";
 {
     [self.layer removeAnimationForKey:AnimationKey];
     if (!instant) {
-        [self ar_startSpinning:1];
+        [self ar_startSpinning:1 removedOnCompletion:YES];
     }
     [ARAnimationContinuation removeFromLayer:self.layer];
 }
