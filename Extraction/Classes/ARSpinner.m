@@ -77,7 +77,7 @@
 
 - (void)startAnimating
 {
-    [self animate:LONG_MAX];
+    [self animate];
 }
 
 // Added because sometimes the spinner's animation block gets called
@@ -88,14 +88,14 @@
     [super didMoveToSuperview];
     if (self.superview && self.deferredAnimation) {
         self.deferredAnimation = NO;
-        [self ar_startSpinning];
+        [self ar_startSpinningIndefinitely];
     }
 }
 
 - (void)animate
 {
     if (self.superview) {
-        [self ar_startSpinning];
+        [self ar_startSpinningIndefinitely];
     } else {
         self.deferredAnimation = YES;
     }
